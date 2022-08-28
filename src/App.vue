@@ -1,17 +1,24 @@
 <template>
   <div>
-    <header class="bio">
-        <h1>Juana Copello</h1>
+    <header class="bio" id="topBio">
+      <h1>Juana Copello</h1>
       <div class="navbar">
-        <p>PUBLISHED WORK</p>
-        <p>ABOUT ME</p>
-        <p>OTHER PROJECTS :)</p>
+        <p><a href="#published">PUBLISHED</a></p>
+        <p><a href="#aboutme">ABOUT ME</a></p>
       </div>
     </header>
     <ProjectsLN />
+    <AboutMe />
+    <a href=#topBio><button class="scrollTopBtn">Scroll to top</button></a>
   </div>
 </template>
 <style scoped>
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: revert;
+}
+
 .bio {
   display: flex;
   flex-direction: column;
@@ -20,10 +27,6 @@
   padding: 2rem 0;
   background-color: #0c2332; /*#f4f0f0 #0c2332*/
   color: white;
-  /*position: fixed;
-  width: 100%;
-  z-index: 3;
-  top: 0;*/
 }
 
 .bio h1 {
@@ -52,17 +55,17 @@
   flex-direction: row;
 }
 
-.navbar p{
+.navbar p {
   display: inline-block;
   position: relative;
 }
 
-.navbar p:hover{
+.navbar p:hover {
   cursor: pointer;
 }
 
 .navbar p:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -78,8 +81,17 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-@media screen and (min-width: 1000px) {
 
+.scrollTopBtn {
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  margin: 30px 40px;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1000px) {
   .bio h2 {
     padding-bottom: 1.5rem;
   }
@@ -88,10 +100,12 @@
 
 <script>
 import ProjectsLN from "./components/ProjectsLN.vue";
+import AboutMe from "./components/AboutMe.vue";
 export default {
   name: "app",
   components: {
     ProjectsLN,
+    AboutMe,
   },
 };
 </script>
