@@ -1,6 +1,5 @@
-# jcopello_portfolio
-
-This template should help get you started developing with Vue 3 in Vite.
+# Portfolio
+Portfolio website made with Vue 3 in Vite 
 
 ## Recommended IDE Setup
 
