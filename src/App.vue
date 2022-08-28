@@ -5,6 +5,7 @@
       <div class="navbar">
         <p>PUBLISHED WORK</p>
         <p>ABOUT ME</p>
+        <p>OTHER PROJECTS :)</p>
       </div>
     </header>
     <ProjectsLN />
@@ -51,6 +52,32 @@
   flex-direction: row;
 }
 
+.navbar p{
+  display: inline-block;
+  position: relative;
+}
+
+.navbar p:hover{
+  cursor: pointer;
+}
+
+.navbar p:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar p:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 @media screen and (min-width: 1000px) {
 
   .bio h2 {

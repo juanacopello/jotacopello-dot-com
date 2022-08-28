@@ -7,7 +7,7 @@
           <img :src="articles[i].image" :alt="articles[i].alt" />
           <h4 class="texto_project">{{ articles[i].title }}</h4>
           <button>
-            <a :href="articles[i].link" target="_blank">Ver más</a>
+            <a :href="articles[i].link" target="_blank">See more</a>
           </button>
         </article>
       </div>
@@ -26,6 +26,7 @@
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
+  color: #000000ba;
 }
 
 .container {
@@ -59,6 +60,7 @@
   font-size: 1rem;
   margin: auto 0;
   line-height: 1.3;
+  color: #000;
 }
 
 .container article p {
@@ -139,6 +141,14 @@ export default {
         },
         //Distorsión de precios
         //Artemis
+         {
+          title:
+            "First the Moon, then Mars. Half a century after Apollo XI, the United States wants to conquer space again",
+          image:
+            "https://resizer.glanacion.com/resizer/N82f4Ap-wiyxWgJjUVbVfiVuBIg=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XOJ3AB4RPVBBTPUNWPMT7S622E.jpg",
+          alt: "artemis_captura_home",
+          link: "https://www.lanacion.com.ar/sociedad/primero-la-luna-luego-marte-medio-siglo-despues-del-apolo-11-estados-unidos-quiere-volver-a-nid28082022/#/",
+        },
         //Plataformas de vacunas
         {
           title: "This is how the Covid-19 vaccine candidates work",
