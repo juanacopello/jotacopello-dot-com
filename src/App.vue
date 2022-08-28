@@ -5,7 +5,6 @@
       <div class="navbar">
         <p>PUBLISHED WORK</p>
         <p>ABOUT ME</p>
-        <p>OTHER PROJECTS :)</p>
       </div>
     </header>
     <ProjectsLN />
