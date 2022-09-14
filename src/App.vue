@@ -1,13 +1,15 @@
 <template>
   <div>
     <header class="bio">
-        <h1>Juana Copello</h1>
-      <div class="navbar">
-        <p>PUBLISHED WORK</p>
-        <p>ABOUT ME</p>
-      </div>
+      <h1>Juana Copello</h1>
     </header>
-    <ProjectsLN />
+    <main>
+      <AboutMe />
+      <ProjectsLN />
+    </main>
+    <footer>
+
+    </footer>
   </div>
 </template>
 <style scoped>
@@ -16,22 +18,17 @@
   flex-direction: column;
   align-items: center;
   box-sizing: unset;
-  padding: 2rem 0;
-  background-color: #0c2332; /*#f4f0f0 #0c2332*/
-  color: white;
-  /*position: fixed;
-  width: 100%;
-  z-index: 3;
-  top: 0;*/
+  padding: 4rem 0;
+  /*background-color: #000000; #f4f0f0 #0c2332*/
+  color: #000000;
 }
 
 .bio h1 {
-  text-transform: uppercase;
-  font-weight: 300;
   line-height: 0.7;
   letter-spacing: 0.03rem;
-  font-size: 1.5rem;
-  margin-bottom: 15px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .bio h2 {
@@ -51,17 +48,17 @@
   flex-direction: row;
 }
 
-.navbar p{
+.navbar p {
   display: inline-block;
   position: relative;
 }
 
-.navbar p:hover{
+.navbar p:hover {
   cursor: pointer;
 }
 
 .navbar p:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -78,7 +75,6 @@
   transform-origin: bottom left;
 }
 @media screen and (min-width: 1000px) {
-
   .bio h2 {
     padding-bottom: 1.5rem;
   }
@@ -87,10 +83,13 @@
 
 <script>
 import ProjectsLN from "./components/ProjectsLN.vue";
+import AboutMe from "./components/AboutMe.vue";
+
 export default {
   name: "app",
   components: {
     ProjectsLN,
+    AboutMe,
   },
 };
 </script>
