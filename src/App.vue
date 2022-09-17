@@ -8,17 +8,49 @@
       <ProjectsLN />
     </main>
     <footer>
-
+      <div class="socialMedia">
+        <a href="https://twitter.com/copellojuana" target="_blank"
+          ><font-awesome-icon icon="fa-brands fa-twitter"
+        /></a>
+        <a href="https://github.com/juanacopello" target="_blank"
+          ><font-awesome-icon icon="fa-brands fa-github-alt"
+        /></a>
+        <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
+          ><font-awesome-icon icon="fa-brands fa-linkedin-in"
+        /></a>
+        <a href="mailto:copellojuana@gmail.com" target="_blank"
+          ><font-awesome-icon icon="fa-solid fa-envelope"
+        /></a>
+      </div>
     </footer>
   </div>
 </template>
 <style scoped>
+footer {
+  max-width: 1000px;
+  margin: 50px auto 0;
+}
+
+.socialMedia svg {
+  color: black;
+  height: 1.5em;
+  margin: 0 20px;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px 0;
+  border-top: 2px solid #000000;
+}
+
 .bio {
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: unset;
-  padding: 4rem 0;
+  padding: 2rem 0 0;
   /*background-color: #000000; #f4f0f0 #0c2332*/
   color: #000000;
 }

@@ -6,7 +6,7 @@
         <article v-for="(articulo, i) in articles" :key="i">
           <a :href="articles[i].link" target="_blank">
             <img :src="articles[i].image" :alt="articles[i].alt" />
-            <h4 class="texto_project">{{ articles[i].title }}</h4>
+            <h4 class="texto_project">{{ articles[i].title }} </h4>
             <h5 class="publisher">{{ articles[i].published }}</h5>
           </a>
           <!-- <button></button> -->
@@ -30,12 +30,11 @@ a {
     font-size: 1rem;
 }
 .projects {
-  margin: 2rem auto;
+  margin: 4rem auto 3rem;
   width: 80%;
 }
 
 .projects h3 {
-  padding-top: 1.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -48,7 +47,7 @@ a {
   grid-column-gap: 10px;
   grid-row-gap: 50px;
   margin: auto;
-  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .container article {
@@ -56,10 +55,27 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  height: 350px;
     /*box-shadow: 0px 0px 5px 0px #38383873;*/
-
 }
 
+article::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.15s ease-out;
+}
+
+article:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .container article img,
 .container article video {
   width: 100%;
@@ -73,7 +89,7 @@ a {
 .container article .texto_project {
   padding: 0 0.5rem;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: .9rem;
   margin: auto 0;
   line-height: 1.3;
   color: #000000;

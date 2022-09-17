@@ -1,17 +1,26 @@
 <template>
   <div>
     <section class="about">
+      <div class="socialMedia">
+         <a href="https://twitter.com/copellojuana" target="_blank"
+          ><font-awesome-icon icon="fa-brands fa-twitter"
+        /></a>
+        <a href="https://github.com/juanacopello" target="_blank"
+          ><font-awesome-icon icon="fa-brands fa-github-alt"
+        /></a>
+        <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
+          ><font-awesome-icon icon="fa-brands fa-linkedin-in"
+        /></a>
+        <a href="mailto:copellojuana@gmail.com" target="_blank"
+          ><font-awesome-icon icon="fa-solid fa-envelope"
+        /></a>
+      </div>
       <p>
         Uso la información para contar historias de forma visual. Periodista en
         el equipo de Narrativas Digitales e Infografía en
-        <span>LA NACION.</span>.
+        <span>LA NACION</span>.
       </p>
-      <div class="socialMedia">
-        <font-awesome-icon icon="fa-brands fa-twitter" />
-        <font-awesome-icon icon="fa-brands fa-github-alt" />
-        <font-awesome-icon icon="fa-brands fa-linkedin-in" />
-        <font-awesome-icon icon="fa-solid fa-envelope" />
-      </div>
+      
     </section>
   </div>
 </template>
@@ -36,8 +45,12 @@ a {
       display: flex;
     justify-content: center;
     flex-direction: row;
+    margin: 20px auto;
 }
 
+p{
+  padding: 20px 0;
+}
 .about span {
   /*color: rgb(104,104,172);*/
   font-weight: 700;
