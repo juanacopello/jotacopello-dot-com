@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="projects">
-      <h3>My work</h3>
+      <h3>MY WORK</h3>
       <div class="container">
         <article v-for="(articulo, i) in articles" :key="i">
           <a :href="articles[i].link" target="_blank">
@@ -22,15 +22,15 @@ a {
 }
 
 .publisher{
-      margin: 0;
-    padding: .3rem .8rem 0.5rem;
+    margin: 0;
+    padding: .5rem;
     text-transform: uppercase;
     font-weight: 600;
     color: #000000;
     font-size: 1rem;
 }
 .projects {
-  margin: 4rem auto 3rem;
+  margin: 3rem auto;
   width: 80%;
 }
 
@@ -39,6 +39,7 @@ a {
   font-weight: 600;
   text-transform: uppercase;
   color: #000000ba;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -53,9 +54,8 @@ a {
 .container article {
   border: 1px solid #e2e6e7;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  height: 350px;
+  align-items: center;
+  /*height: 350px;*/
     /*box-shadow: 0px 0px 5px 0px #38383873;*/
 }
 

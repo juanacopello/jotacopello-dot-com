@@ -16,9 +16,10 @@
         /></a>
       </div>
       <p>
-        Uso la información para contar historias de forma visual. Periodista en
+        Uso la información para contar historias de forma visual. 
+        Investigo, maqueto y programo en
         el equipo de Narrativas Digitales e Infografía en
-        <span>LA NACION</span>.
+        <span>LA NACION</span>. 
       </p>
       
     </section>
@@ -31,13 +32,13 @@ a {
   text-decoration: none;
 }
 .about {
-  width: 60%;
-  margin: auto;
+  width: 80%;
+  margin: 20px auto;
 }
 
 .socialMedia svg {
   color: black;
-  height: 1.5em;
+  height: 1.25em;
   margin: 0 20px;
 }
 
@@ -45,11 +46,11 @@ a {
       display: flex;
     justify-content: center;
     flex-direction: row;
-    margin: 20px auto;
+    margin: 15px auto;
 }
 
 p{
-  padding: 20px 0;
+  padding: 30px 0 10px;
 }
 .about span {
   /*color: rgb(104,104,172);*/
