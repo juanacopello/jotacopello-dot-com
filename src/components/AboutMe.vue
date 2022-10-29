@@ -17,7 +17,7 @@
       </div>
       <p>
         Uso la información para contar historias de forma visual. 
-        Investigo, maqueto y programo en
+        Licenciada en Comunicación Periodística (UCA). Investigo, maqueto y programo en
         el equipo de Narrativas Digitales e Infografía en
         <span>LA NACION</span>. 
       </p>
@@ -43,19 +43,40 @@ a {
 }
 
 .socialMedia{
-      display: flex;
+    display: flex;
     justify-content: center;
     flex-direction: row;
     margin: 15px auto;
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
 }
 
 p{
   padding: 30px 0 10px;
+  line-height: 1.3;
+  text-align: center;
 }
 .about span {
   /*color: rgb(104,104,172);*/
   font-weight: 700;
 }
+
+@media screen and (min-width: 700px){
+p{
+  text-align: left;
+}
+}
+
+@media screen and (min-width: 1000px) {
+  p{
+    font-size: 15px;
+    margin: auto;
+  }
+
+ 
+}
+
 </style>
 <script>
 export default {

@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="projects">
-      <h3>MY WORK</h3>
+      <h3>Selected work</h3>
       <div class="container">
         <article v-for="(articulo, i) in articles" :key="i">
           <a :href="articles[i].link" target="_blank">
@@ -39,7 +39,7 @@ a {
   font-weight: 600;
   text-transform: uppercase;
   color: #000000ba;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -87,7 +87,7 @@ article:hover:after {
 }
 
 .container article .texto_project {
-  padding: 0 0.5rem;
+  padding: 0.5rem;
   font-weight: 300;
   font-size: .9rem;
   margin: auto 0;
