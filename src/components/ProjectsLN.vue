@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="projects">
-      <h3>Selected work</h3>
+      <h3>Proyectos seleccionados</h3>
       <div class="container">
         <article v-for="(articulo, i) in articles" :key="i">
           <a :href="articles[i].link" target="_blank">
@@ -167,7 +167,7 @@ export default {
         //Simulación en el colectivo
         {
           title:
-            "Simulation. This is how the virus can spread in public transport",
+            "Simulación. Así se puede propagar el virus en el transporte público",
           image:
             "https://resizer.glanacion.com/resizer/wsH9qhqEmYUDAbfMZo3pgMNQyM8=/1200x746/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/4VT6FVWGRJEMZNGRDOFAWME4GA.gif",
           alt: "simulacion_particulas_colectivo_gif",
@@ -177,7 +177,7 @@ export default {
         //Plaza de Mayo
         {
           title:
-            "Plaza de Mayo in flames: 24 hours of anger, repression and death that changed history",
+            "Plaza de Mayo en llamas. 24 horas de bronca, represión y muerte que cambiaron la historia",
           image:
             "https://resizer.glanacion.com/resizer/2wmHNtkS2PsATDxKmOi_Ox8s2Lk=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/4F3ACEW52VBSRMZDEME2YJVHHQ.gif",
           alt: "plaza_de_mayo_gif",
@@ -187,7 +187,7 @@ export default {
         //Distorsión de precios
         {
           title:
-            "Do you know how much the milk costs? And the gasoline? Test your notion of prices in times of accelerated inflation",
+            "¿Sabés cuánto vale la leche? ¿Y la nafta? Testeá tu noción de los precios en tiempos de inflación galopante",
           image:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaH0_QaiQCYmg_2TEB952YGUZpZRGw_IumSBk5aPgcEmXHq7U0_PbUH09E3ufps4l6_cs&usqp=CAU",
           alt: "test_inflacion_captura_home",
@@ -197,7 +197,7 @@ export default {
         //Artemis
         {
           title:
-            "First the Moon, then Mars. Half a century after Apollo XI, the United States wants to conquer space again",
+            "Primero la Luna, luego Marte. Medio siglo después del Apolo 11, Estados Unidos quiere volver a conquistar el espacio",
           image:
             "https://resizer.glanacion.com/resizer/N82f4Ap-wiyxWgJjUVbVfiVuBIg=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XOJ3AB4RPVBBTPUNWPMT7S622E.jpg",
           alt: "artemis_captura_home",
@@ -206,7 +206,7 @@ export default {
         },
         //Plataformas de vacunas
         {
-          title: "This is how the Covid-19 vaccine candidates work",
+          title: "Así funcionan las vacunas en carrera contra el coronavirus",
           image:
             "https://resizer.glanacion.com/resizer/1efleqADafaG5DwG7uvgaRMDt6U=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WXIM3KE6QFDTNPNMTLEBTK2BTE.gif",
           alt: "plataformas_vacunas_covid19_gif",
@@ -215,7 +215,7 @@ export default {
         },
         //Cómo ataca el virus en el organismo
         {
-          title: "Coronavirus: day by day, how the virus attacks the body",
+          title: "Coronavirus: día por día, cómo actúa el virus en el organismo",
           image:
             "https://buckets3.glanacion.com/lntools/anexos/fotos/66/18866.svg",
           alt: "covid19_virus_attack_body_img",
@@ -225,7 +225,7 @@ export default {
         //Marte
         {
           title:
-            '"Seven minutes of terror" to go after the traces of life on Mars',
+            '"Siete minutos de terror" para ir tras las huellas de vida en Marte',
           image:
             "https://buckets3.glanacion.com/lntools/anexos/fotos/65/40065w345q100.gif",
           alt: "mars_2020_gif",
@@ -234,7 +234,7 @@ export default {
         },
         //Ucrania
         {
-          title: "The war in Ukraine: the maps that explain the invasion",
+          title: "Guerra en Ucrania: día por día, los mapas que explican la invasión que tiene en vilo al mundo",
           image:
             "https://resizer.glanacion.com/resizer/liQKUUJcGewkirjb3TRDu7uWBb4=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/QPBXILOUF5DQ3O76MAY6ZBZX3U.gif",
           alt: "war_in_ukraine_maps_explainer_gif",
@@ -244,7 +244,7 @@ export default {
         //Candidatos
         {
           title:
-            "Candidates. All the lists that will compete in the legislative elections",
+            "Candidatos. Todas las listas que competirán en las elecciones legislativas",
           image:
             "https://resizer.glanacion.com/resizer/fOHW-3XZKIGxdVJSlQzxkJaEguI=/1200x746/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/47ASQ4IHYBCJ3DEWGEIO6JKBLM.gif",
           alt: "candidates_lists_visualization_gif",
@@ -253,7 +253,7 @@ export default {
         },
         //Juegos Olímpicos
         {
-          title: '"Olympic Tokyo: A tour of the venues and stadiums',
+          title: 'Tokio Olímpica: Un recorrido por las sedes y estadios',
           image:
             "https://resizer.glanacion.com/resizer/sXqS1qhmFGDRUElzrAE7EDBF36o=/1119x746/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/RC4FMYXQRJD5VEEJHWKWCLEU7I.gif",
           alt: "tokyo_venues_gif",
