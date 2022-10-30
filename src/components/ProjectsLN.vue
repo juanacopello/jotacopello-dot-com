@@ -5,8 +5,10 @@
       <div class="container">
         <article v-for="(articulo, i) in articles" :key="i">
           <a :href="articles[i].link" target="_blank">
-            <img :src="articles[i].image" :alt="articles[i].alt" />
-            <h4 class="texto_project">{{ articles[i].title }} </h4>
+            <figure>
+              <img :src="articles[i].image" :alt="articles[i].alt" />
+            </figure>
+            <h4 class="texto_project">{{ articles[i].title }}</h4>
             <h5 class="publisher">{{ articles[i].published }}</h5>
           </a>
           <!-- <button></button> -->
@@ -17,25 +19,28 @@
 </template>
 
 <style scoped>
-a {
+article a {
   text-decoration: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.publisher{
-    margin: 0;
-    padding: .5rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #000000;
-    font-size: 1rem;
+.publisher {
+  margin: 0;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000000;
+  font-size: 1rem;
 }
 .projects {
-  margin: 3rem auto;
+  margin: 2.5rem auto;
   width: 80%;
 }
 
 .projects h3 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   color: #000000ba;
@@ -45,7 +50,7 @@ a {
 .container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-column-gap: 10px;
+  grid-column-gap: 20px;
   grid-row-gap: 50px;
   margin: auto;
   padding-bottom: 0.5rem;
@@ -56,10 +61,10 @@ a {
   display: flex;
   align-items: center;
   /*height: 350px;*/
-    /*box-shadow: 0px 0px 5px 0px #38383873;*/
+  /*box-shadow: 0px 0px 5px 0px #38383873;*/
 }
 
-article::after{
+article::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -89,7 +94,7 @@ article:hover:after {
 .container article .texto_project {
   padding: 0.5rem;
   font-weight: 300;
-  font-size: .9rem;
+  font-size: 0.9rem;
   margin: auto 0;
   line-height: 1.3;
   color: #000000;
@@ -124,6 +129,7 @@ button a:hover {
   opacity: 0.7;
 }
 
+
 @media screen and (min-width: 500px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
@@ -131,6 +137,9 @@ button a:hover {
 }
 
 @media screen and (min-width: 1000px) {
+  .container article .texto_project{
+    padding: 0 0.5rem;
+  }
   .container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -142,7 +151,10 @@ button a:hover {
 
   .projects {
     max-width: 1100px;
+    margin: 2rem auto;
   }
+
+ 
 }
 </style>
 

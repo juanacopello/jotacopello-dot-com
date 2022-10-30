@@ -33,7 +33,7 @@ a {
 }
 .about {
   width: 80%;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 .socialMedia svg {
@@ -55,7 +55,7 @@ a {
 p{
   padding: 30px 0 10px;
   line-height: 1.3;
-  text-align: center;
+  max-width: 740px;
 }
 .about span {
   /*color: rgb(104,104,172);*/

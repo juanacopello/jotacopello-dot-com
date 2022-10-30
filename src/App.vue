@@ -50,13 +50,14 @@ footer {
   flex-direction: column;
   align-items: center;
   box-sizing: unset;
-  padding: 2rem 0 0;
+  padding: 2rem;
   /*background-color: #000000; #f4f0f0 #0c2332*/
   color: #000000;
+  text-align: center;
 }
 
 .bio h1 {
-  line-height: 0.7;
+  line-height: 1.1;
   letter-spacing: 0.03rem;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -107,6 +108,9 @@ footer {
   transform-origin: bottom left;
 }
 @media screen and (min-width: 1000px) {
+  .bio{
+    padding: 2rem 0 1rem;
+  }
   .bio h2 {
     padding-bottom: 1.5rem;
   }
