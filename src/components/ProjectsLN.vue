@@ -251,15 +251,16 @@ export default {
           link: "https://www.lanacion.com.ar/politica/candidatos-todas-las-listas-que-vas-a-encontrar-en-el-cuarto-oscuro-el-proximo-domingo-nid09112021/",
           published: "La Nacion",
         },
-        //Juegos Olímpicos
+        //Goles - Goles xG
         {
-          title: 'Tokio Olímpica: Un recorrido por las sedes y estadios',
+          title: 'Números reveladores. La selección candidata a ganar el Mundial y el jugador más efectivo frente al arco',
           image:
-            "https://resizer.glanacion.com/resizer/sXqS1qhmFGDRUElzrAE7EDBF36o=/1119x746/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/RC4FMYXQRJD5VEEJHWKWCLEU7I.gif",
-          alt: "tokyo_venues_gif",
-          link: "https://www.lanacion.com.ar/deportes/tokio-olimpica-un-recorrido-por-las-sedes-y-estadios-nid23072021/",
+            "https://buckets3.glanacion.com/lntools/anexos/fotos/82/51882.gif",
+          alt: "goals_xGgoals_gif",
+          link: "https://www.lanacion.com.ar/deportes/rendimiento-de-jugadores-nid08122022/",
           published: "La Nacion",
         },
+
       ],
     };
   },
