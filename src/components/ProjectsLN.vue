@@ -1,7 +1,7 @@
 <template>
   <div>
     <section class="projects">
-      <h3>Proyectos seleccionados</h3>
+      <h3>Selected work</h3>
       <div class="container">
         <article v-for="(articulo, i) in articles" :key="i">
           <a :href="articles[i].link" target="_blank">

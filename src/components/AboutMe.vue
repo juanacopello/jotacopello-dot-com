@@ -15,12 +15,12 @@
           ><font-awesome-icon icon="fa-solid fa-envelope"
         /></a>
       </div>
-      <p>
+      <!-- <p>
         Uso la información para contar historias de forma visual. 
         Licenciada en Comunicación Periodística (UCA). Investigo, maqueto y programo en
         el equipo de Narrativas Digitales e Infografía en
         <span>LA NACION</span>. 
-      </p>
+      </p> -->
       
     </section>
   </div>
@@ -47,7 +47,6 @@ a {
     justify-content: center;
     flex-direction: row;
     margin: 15px auto;
-    padding-top: 10px;
     width: 90%;
     margin: auto;
 }
