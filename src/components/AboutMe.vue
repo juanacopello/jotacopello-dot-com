@@ -1,80 +1,43 @@
 <template>
   <div>
-    <section class="about">
-      <div class="socialMedia">
-         <a href="https://twitter.com/copellojuana" target="_blank"
-          ><font-awesome-icon icon="fa-brands fa-twitter"
-        /></a>
-        <a href="https://github.com/juanacopello" target="_blank"
-          ><font-awesome-icon icon="fa-brands fa-github-alt"
-        /></a>
-        <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
-          ><font-awesome-icon icon="fa-brands fa-linkedin-in"
-        /></a>
-        <a href="mailto:copellojuana@gmail.com" target="_blank"
-          ><font-awesome-icon icon="fa-solid fa-envelope"
-        /></a>
-      </div>
-    
-    
-    <p>About me</p>
+    <section id="aboutme">
+      <h3>¡Buenas!</h3>
+      <p>
+        Soy Juana Copello, y uso la información para contar historias de forma
+        visual. Investigo, maqueto y programo visualizaciones en el equipo de
+        Narrativas Digitales de LA NACION en Argentina.
+        <br />
+        Soy periodista (UCA) y me interesa el diseño gráfico y la programación.
+        Además, soy docente en la Universidad Torcuato Di Tella.
+        <br />
+        Cuando no estoy trabajando me gusta experimentar con código con fines
+        artísticos. También desarrollo visualizaciones de datos sobre temas que
+        me interesan como la música, la tecnología y cuestiones de género. En mi
+        tiempo libre leo de todo, voy a recitales, escucho podcasts, y visito
+        lugares nuevos en Buenos Aires.
+        <br />
+        Esta página está en inglés pero mi idioma nativo es el español y también
+        sé un poco de francés.
+      </p>
+      <h4>CONTACTO</h4>
+      <p>twitter</p>
+      <p>gmail</p>
+      <p>linkedin</p>
+      <p>github</p>
     </section>
   </div>
 </template>
 
 <style scoped>
-a {
-  color: black;
-  text-decoration: none;
-}
-.about {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.socialMedia svg {
-  color: black;
-  height: 1.25em;
-  margin: 0 20px;
-}
-
-.socialMedia{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 15px auto;
-    width: 90%;
-    margin: auto;
-}
-
-p{
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 1.3;
-}
-.about span {
-  /*color: rgb(104,104,172);*/
-  font-weight: 700;
-}
-
-@media screen and (min-width: 700px){
-p{
-  text-align: left;
-}
-}
-
 @media screen and (min-width: 1000px) {
-  p{
-    font-size: 15px;
-    margin: auto;
-  }
-
- 
+    div{
+    height: 100vh;
 }
-
+}
 </style>
+
 <script>
 export default {
-  name: "AboutMe",
-};
+    name: "AboutMe",
+}
 </script>

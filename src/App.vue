@@ -24,6 +24,8 @@
         /></a>
       </div>
     </footer>
+    <AboutMe />
+    <a href=#topBio><button class="scrollTopBtn">Go back</button></a>
   </div>
 </template>
 <style scoped>
@@ -83,10 +85,12 @@ footer {
 }
 
 .navbar p {
+.navbar p {
   display: inline-block;
   position: relative;
 }
 
+.navbar p:hover {
 .navbar p:hover {
   cursor: pointer;
 }
@@ -108,6 +112,16 @@ footer {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.scrollTopBtn {
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  margin: 30px 40px;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 1000px) {
   .bio{
     padding: 2rem 0 1rem;

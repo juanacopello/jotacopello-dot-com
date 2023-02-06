@@ -1,5 +1,7 @@
 <template>
   <div>
+    <main class="projects" id="published">
+      <h3>LA NACION</h3>
     <section class="projects">
       <h3>Selected work</h3>
       <div class="container">
@@ -85,6 +87,8 @@ article:hover:after {
 .container article video {
   width: 100%;
   height: 100%;
+  border-bottom: 1px solid #e2e6e7;
+
 }
 
 .container article video {
