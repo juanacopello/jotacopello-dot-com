@@ -1,37 +1,24 @@
 <template>
   <div>
-    <section id="aboutme">
-      <h3>¡Buenas!</h3>
+    <section id="myBio">
+      <h3>¡Hola!</h3>
       <p>
-        Soy Juana Copello, y uso la información para contar historias de forma
-        visual. Investigo, maqueto y programo visualizaciones en el equipo de
-        Narrativas Digitales de LA NACION en Argentina.
+        My name is Juana Copello. I am a journalist specializing in Data Visualization and Visual Storytelling. 
         <br />
-        Soy periodista (UCA) y me interesa el diseño gráfico y la programación.
-        Además, soy docente en la Universidad Torcuato Di Tella.
+        I am currently working at the Graphics Desk at LA NACION, a a national news media outlet in Argentina, where I research for content and develop interactive visual stories.
+        I am also an Assistant Professor at the Universidad Torcuato Di Tella (UTDT) Design School, teaching introductory coding and data visualization classes to undergraduate students.
         <br />
-        Cuando no estoy trabajando me gusta experimentar con código con fines
-        artísticos. También desarrollo visualizaciones de datos sobre temas que
-        me interesan como la música, la tecnología y cuestiones de género. En mi
-        tiempo libre leo de todo, voy a recitales, escucho podcasts, y visito
-        lugares nuevos en Buenos Aires.
-        <br />
-        Esta página está en inglés pero mi idioma nativo es el español y también
-        sé un poco de francés.
+        This site is on english pero mi idioma nativo es el español.
       </p>
-      <h4>CONTACTO</h4>
-      <p>twitter</p>
-      <p>gmail</p>
-      <p>linkedin</p>
-      <p>github</p>
     </section>
   </div>
 </template>
 
 <style scoped>
 @media screen and (min-width: 1000px) {
-    div{
-    height: 100vh;
+div{
+    height: 80vh;
+    
 }
 }
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div>
-    <main class="projects" id="published">
-      <h3>LA NACION</h3>
+    <main>
     <section class="projects">
       <h3>Selected work</h3>
       <div class="container">
@@ -13,10 +12,11 @@
             <h4 class="texto_project">{{ articles[i].title }}</h4>
             <h5 class="publisher">{{ articles[i].published }}</h5>
           </a>
-          <!-- <button></button> -->
         </article>
       </div>
     </section>
+    </main>
+   
   </div>
 </template>
 

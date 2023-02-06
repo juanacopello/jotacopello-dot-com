@@ -1,51 +1,28 @@
 <template>
   <div>
-    <header class="bio">
+    <header class="bio" id="top">
       <h1>Juana Copello</h1>
       <h2>Visual Journalist</h2>
+      <Icons />
+      <a href=#myBio class="linkToBio">About Me</a> 
     </header>
     <main>
-      <AboutMe />
       <ProjectsLN />
+      <AboutMe />
     </main>
+    <a href=#top><button class="scrollTopBtn">Go back</button></a> 
     <footer>
-      <div class="socialMedia">
-        <a href="https://twitter.com/copellojuana" target="_blank"
-          ><font-awesome-icon icon="fa-brands fa-twitter"
-        /></a>
-        <a href="https://github.com/juanacopello" target="_blank"
-          ><font-awesome-icon icon="fa-brands fa-github-alt"
-        /></a>
-        <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
-          ><font-awesome-icon icon="fa-brands fa-linkedin-in"
-        /></a>
-        <a href="mailto:copellojuana@gmail.com" target="_blank"
-          ><font-awesome-icon icon="fa-solid fa-envelope"
-        /></a>
-      </div>
+     <Icons />
     </footer>
-    <AboutMe />
-    <a href=#topBio><button class="scrollTopBtn">Go back</button></a>
+
   </div>
 </template>
 <style scoped>
 footer {
   max-width: 1000px;
   margin: 50px auto 0;
-}
-
-.socialMedia svg {
-  color: black;
-  height: 1.5em;
-  margin: 0 20px;
-}
-
-.socialMedia {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  padding: 20px 0;
   border-top: 2px solid #000000;
+
 }
 
 .bio {
@@ -79,39 +56,7 @@ footer {
   margin: 0 30px;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-}
 
-.navbar p {
-.navbar p {
-  display: inline-block;
-  position: relative;
-}
-
-.navbar p:hover {
-.navbar p:hover {
-  cursor: pointer;
-}
-
-.navbar p:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 1px;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.navbar p:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 
 .scrollTopBtn {
   position: sticky;
@@ -120,6 +65,10 @@ footer {
   margin: 30px 40px;
   padding: 20px 0;
   border-radius: 10px;
+}
+
+.linkToBio{
+text-transform: uppercase;
 }
 
 @media screen and (min-width: 1000px) {
@@ -133,12 +82,15 @@ footer {
 <script>
 import ProjectsLN from "./components/ProjectsLN.vue";
 import AboutMe from "./components/AboutMe.vue";
+import Icons from "./components/Icons.vue"
+
 
 export default {
   name: "app",
   components: {
     ProjectsLN,
     AboutMe,
+    Icons
   },
 };
 </script>
