@@ -2,6 +2,7 @@
   <div>
     <header class="bio">
       <h1>Juana Copello</h1>
+      <h2>Visual Journalist</h2>
     </header>
     <main>
       <AboutMe />
@@ -65,10 +66,10 @@ footer {
 }
 
 .bio h2 {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 18px;
+  font-weight: 300;
   margin: auto;
-  font-size: 20px;
+  line-height: 1.3;
 }
 
 .bio p {
@@ -111,9 +112,7 @@ footer {
   .bio{
     padding: 2rem 0 1rem;
   }
-  .bio h2 {
-    padding-bottom: 1.5rem;
-  }
+
 }
 </style>
 

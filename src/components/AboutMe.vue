@@ -15,13 +15,9 @@
           ><font-awesome-icon icon="fa-solid fa-envelope"
         /></a>
       </div>
-      <!-- <p>
-        Uso la información para contar historias de forma visual. 
-        Licenciada en Comunicación Periodística (UCA). Investigo, maqueto y programo en
-        el equipo de Narrativas Digitales e Infografía en
-        <span>LA NACION</span>. 
-      </p> -->
-      
+    
+    
+    <p>About me</p>
     </section>
   </div>
 </template>
@@ -52,9 +48,9 @@ a {
 }
 
 p{
-  padding: 30px 0 10px;
+  text-align: center;
+  text-transform: uppercase;
   line-height: 1.3;
-  max-width: 740px;
 }
 .about span {
   /*color: rgb(104,104,172);*/
