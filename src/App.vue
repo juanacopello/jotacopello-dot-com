@@ -2,14 +2,10 @@
   <div>
     <header class="bio" id="topBio">
       <h1>Juana Copello</h1>
-      <div class="navbar">
-        <p><a href="#published">PUBLISHED</a></p>
-        <p><a href="#aboutme">ABOUT ME</a></p>
-      </div>
     </header>
     <ProjectsLN />
     <AboutMe />
-    <a href=#topBio><button class="scrollTopBtn">Scroll to top</button></a>
+    <a href=#topBio><button class="scrollTopBtn">Go back</button></a>
   </div>
 </template>
 <style scoped>
