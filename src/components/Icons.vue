@@ -20,8 +20,8 @@
 <style scoped>
 .socialMedia svg {
   color: black;
-  height: 1.5em;
-  margin: 0 20px;
+  height: 1.3em;
+  margin: 0 15px;
 }
 
 .socialMedia {

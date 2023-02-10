@@ -1,6 +1,5 @@
 <template>
   <div>
-    <main>
     <section class="projects">
       <h3>Selected work</h3>
       <div class="container">
@@ -15,7 +14,6 @@
         </article>
       </div>
     </section>
-    </main>
    
   </div>
 </template>
@@ -171,7 +169,7 @@ export default {
         //Simulación en el colectivo
         {
           title:
-            "Simulación. Así se puede propagar el virus en el transporte público",
+            "Simulation. This is how the Covid-19 can spread in public transport.",
           image:
             "https://resizer.glanacion.com/resizer/wsH9qhqEmYUDAbfMZo3pgMNQyM8=/1200x746/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/4VT6FVWGRJEMZNGRDOFAWME4GA.gif",
           alt: "simulacion_particulas_colectivo_gif",
@@ -181,7 +179,7 @@ export default {
         //Plaza de Mayo
         {
           title:
-            "Plaza de Mayo en llamas. 24 horas de bronca, represión y muerte que cambiaron la historia",
+            "Plaza de Mayo in flames. 24 hours of anger, repression and death that changed history.",
           image:
             "https://resizer.glanacion.com/resizer/2wmHNtkS2PsATDxKmOi_Ox8s2Lk=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/4F3ACEW52VBSRMZDEME2YJVHHQ.gif",
           alt: "plaza_de_mayo_gif",
@@ -191,7 +189,7 @@ export default {
         //Distorsión de precios
         {
           title:
-            "¿Sabés cuánto vale la leche? ¿Y la nafta? Testeá tu noción de los precios en tiempos de inflación galopante",
+            "Do you know how much milk and gasoline cost? Test your notion of prices in times of uncontrolled inflation.",
           image:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaH0_QaiQCYmg_2TEB952YGUZpZRGw_IumSBk5aPgcEmXHq7U0_PbUH09E3ufps4l6_cs&usqp=CAU",
           alt: "test_inflacion_captura_home",
@@ -201,7 +199,7 @@ export default {
         //Artemis
         {
           title:
-            "Primero la Luna, luego Marte. Medio siglo después del Apolo 11, Estados Unidos quiere volver a conquistar el espacio",
+            "First the Moon, then Mars. Half a century after Apollo 11, the United States wants to conquer space again.",
           image:
             "https://resizer.glanacion.com/resizer/N82f4Ap-wiyxWgJjUVbVfiVuBIg=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XOJ3AB4RPVBBTPUNWPMT7S622E.jpg",
           alt: "artemis_captura_home",
@@ -210,7 +208,7 @@ export default {
         },
         //Plataformas de vacunas
         {
-          title: "Así funcionan las vacunas en carrera contra el coronavirus",
+          title: "How vaccines work in the race against coronavirus",
           image:
             "https://resizer.glanacion.com/resizer/1efleqADafaG5DwG7uvgaRMDt6U=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WXIM3KE6QFDTNPNMTLEBTK2BTE.gif",
           alt: "plataformas_vacunas_covid19_gif",
@@ -219,45 +217,26 @@ export default {
         },
         //Cómo ataca el virus en el organismo
         {
-          title: "Coronavirus: día por día, cómo actúa el virus en el organismo",
+          title: "SARS-CoV-2: day by day, how the virus affect the body",
           image:
             "https://buckets3.glanacion.com/lntools/anexos/fotos/66/18866.svg",
           alt: "covid19_virus_attack_body_img",
           link: "https://www.lanacion.com.ar/sociedad/dia-dia-como-actua-virus-organismo-nid2358830/",
           published: "La Nacion",
         },
-        //Marte
+        //Mariposa bandera argentina
         {
           title:
-            '"Siete minutos de terror" para ir tras las huellas de vida en Marte',
+            'The secrets of the Argentine flag butterfly',
           image:
-            "https://buckets3.glanacion.com/lntools/anexos/fotos/65/40065w345q100.gif",
-          alt: "mars_2020_gif",
-          link: "https://www.lanacion.com.ar/sociedad/mars-2020-siete-minutos-de-terror-para-ir-tras-las-huellas-de-vida-en-marte-nid18022021/",
+            "https://resizer.glanacion.com/resizer/d5ionfYQLCebBUMJs9WpvOJW0FU=/1200x800/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HS3Y43X5PBGP3BPCJQT4MJAN64.jpg",
+          alt: "argentine_flag_butterfly",
+          link: "https://www.lanacion.com.ar/sociedad/los-secretos-de-la-mariposa-bandera-argentina-nid20062022/#/",
           published: "La Nacion",
-        },
-        //Ucrania
-        {
-          title: "Guerra en Ucrania: día por día, los mapas que explican la invasión que tiene en vilo al mundo",
-          image:
-            "https://resizer.glanacion.com/resizer/liQKUUJcGewkirjb3TRDu7uWBb4=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/QPBXILOUF5DQ3O76MAY6ZBZX3U.gif",
-          alt: "war_in_ukraine_maps_explainer_gif",
-          link: "https://www.lanacion.com.ar/el-mundo/guerra-en-ucrania-dia-por-dia-los-mapas-que-explican-la-invasion-que-tiene-en-vilo-al-mundo-nid03032022/",
-          published: "La Nacion",
-        },
-        //Candidatos
-        {
-          title:
-            "Candidatos. Todas las listas que competirán en las elecciones legislativas",
-          image:
-            "https://resizer.glanacion.com/resizer/fOHW-3XZKIGxdVJSlQzxkJaEguI=/1200x746/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/47ASQ4IHYBCJ3DEWGEIO6JKBLM.gif",
-          alt: "candidates_lists_visualization_gif",
-          link: "https://www.lanacion.com.ar/politica/candidatos-todas-las-listas-que-vas-a-encontrar-en-el-cuarto-oscuro-el-proximo-domingo-nid09112021/",
-          published: "La Nacion",
-        },
+        },       
         //Goles - Goles xG
         {
-          title: 'Números reveladores. La selección candidata a ganar el Mundial y el jugador más efectivo frente al arco',
+          title: 'Revealing numbers. The candidate team to win the World Cup and the most effective player at the soccer goal.',
           image:
             "https://buckets3.glanacion.com/lntools/anexos/fotos/82/51882.gif",
           alt: "goals_xGgoals_gif",

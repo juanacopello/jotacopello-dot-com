@@ -10,7 +10,7 @@
       <ProjectsLN />
       <AboutMe />
     </main>
-    <a href=#top><button class="scrollTopBtn">Go back</button></a> 
+    <!-- <a href=#top><button class="scrollTopBtn">Go back</button></a>  -->
     <footer>
      <Icons />
     </footer>
@@ -69,6 +69,16 @@ footer {
 
 .linkToBio{
 text-transform: uppercase;
+text-decoration: none;
+}
+
+.linkToBio:visited{
+  color: black;
+}
+
+.linkToBio:hover{
+  background-color: black;
+  color: white;
 }
 
 @media screen and (min-width: 1000px) {
