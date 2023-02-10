@@ -3,7 +3,7 @@
     <section id="myBio">
       <h3>¡Hola!</h3>
       <p>
-        &#128200; My name is Juana Copello. I am a journalist specializing in
+        &#128200;I am a journalist specializing in
         <strong>Data Visualization and Visual Storytelling</strong> living in
         Buenos Aires, Argentina<img
           class="argentina"

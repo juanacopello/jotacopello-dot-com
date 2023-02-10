@@ -1,8 +1,8 @@
 <template>
   <div>
     <header class="bio" id="top">
-      <h1>Juana Copello</h1>
-      <h2>Visual Journalist</h2>
+      <h1>juana copello</h1>
+      <h2>visual journalist</h2>
       <Icons />
       <a href=#myBio class="linkToBio">About Me</a> 
     </header>
@@ -40,7 +40,6 @@ footer {
   line-height: 1.1;
   letter-spacing: 0.03rem;
   font-size: 2.5rem;
-  text-transform: uppercase;
   font-weight: 500;
 }
 
