@@ -30,9 +30,9 @@ article a {
   margin: 0;
   padding: 0.5rem;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   color: #000000;
-  font-size: 1rem;
+  font-size: .8rem;
 }
 .projects {
   margin: 2.5rem auto;
@@ -41,7 +41,7 @@ article a {
 
 .projects h3 {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   color: #000000ba;
   margin-bottom: 10px;
@@ -95,10 +95,10 @@ article:hover:after {
 
 .container article .texto_project {
   padding: 0.5rem;
-  font-weight: 300;
-  font-size: 0.9rem;
-  margin: auto 0;
-  line-height: 1.3;
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin: 3px 0;
+  line-height: 1.5;
   color: #000000;
 }
 

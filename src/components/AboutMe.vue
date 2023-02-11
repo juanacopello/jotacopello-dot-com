@@ -1,32 +1,36 @@
 <template>
   <div>
     <section id="myBio">
-      <h3>¡Hola!</h3>
+      <!-- <h3>¡Hola!</h3> -->
+      <p>&#128075;¡Hola!</p>
       <p>
-        &#128200; My name is Juana Copello. I am a journalist specializing in
-        <strong>Data Visualization and Visual Storytelling</strong> living in
-        Buenos Aires, Argentina<img
-          class="argentina"
-          src="icons/argentina-flag-icon.png/"
-        />
+        &#128200; I'm a journalist specializing in
+        Data Visualization and Visual Storytelling in
+        Buenos Aires, Argentina
       </p>
       <p>
-        👩‍💻 I am currently in the Graphics Desk at LA NACION, a a national news
+        &#128373; I work at the Graphics Desk in LA NACION, a national news
         media outlet, where I research and develop interactive visual stories.
       </p>
       <p>
-        &#127912; I am also an lecturer at the at Universidad Torcuato Di Tella's
+        &#128105;&#8205;&#128187;I'm also a lecturer at the Universidad Torcuato Di Tella's
         Design School, where I teach introductory coding and data
         visualization classes to undergraduate students.
       </p>
-      <p>My pronouns are she/her</p>
+      <p>&#127912; My pronouns are she/her</p>
     </section>
   </div>
 </template>
 
 <style scoped>
-strong {
-  font-weight: 700;
+
+#myBio{
+  padding-bottom: 20px;
+}
+
+p{
+  font-weight: 300;
+
 }
 
 div {
@@ -34,11 +38,11 @@ div {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 @media screen and (min-width: 1000px) {
   div {
-    height: 60vh;
+    /* height: 60vh; */
     max-width: calc(1100px * 0.9);
     margin-bottom: 20px;
   }
@@ -49,7 +53,7 @@ p {
   }
 
   p {
-    width: 600px;
+    width: 800px;
   }
 }
 </style>
