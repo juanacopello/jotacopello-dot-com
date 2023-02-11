@@ -5,11 +5,11 @@
       <p>&#128075;¡Hola!</p>
       <p>
         &#128200; I'm a journalist specializing in
-        Data Visualization and Visual Storytelling in
+        Data Visualization and Visual Storytelling based in
         Buenos Aires, Argentina
       </p>
       <p>
-        &#128373; I work at the Graphics Desk in LA NACION, a national news
+        &#128373; I work at the Graphics team in LA NACION, a national news
         media outlet, where I research and develop interactive visual stories.
       </p>
       <p>
@@ -18,6 +18,11 @@
         visualization classes to undergraduate students.
       </p>
       <p>&#127912; My pronouns are she/her</p>
+      <p>&#128241; You can   <a href="mailto:copellojuana@gmail.com" target="_blank"
+          >e-mail</a> me or find me on <a href="https://twitter.com/copellojuana" target="_blank"
+          >twitter</a>, <a href="https://github.com/juanacopello" target="_blank"
+          >github</a> or  <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
+          >linkedin</a></p>
     </section>
   </div>
 </template>
@@ -25,12 +30,17 @@
 <style scoped>
 
 #myBio{
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
 p{
   font-weight: 300;
 
+}
+
+p a {
+      color: black;
+    font-weight: 300;
 }
 
 div {

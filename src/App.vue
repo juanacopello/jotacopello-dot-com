@@ -7,7 +7,7 @@
 
     <!-- <a href=#myBio class="linkToBio">About Me</a>  -->
     <main>
-      <Icons />
+      <!-- <Icons /> -->
       <AboutMe />
       
 
@@ -40,9 +40,10 @@ footer {
 .bio h1 {
   line-height: 1.1;
   letter-spacing: 0.03rem;
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   /* text-transform: uppercase; */
   font-weight: 300;
+  letter-spacing: 0;
 }
 
 .bio h2 {

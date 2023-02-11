@@ -20,16 +20,17 @@
 <style scoped>
 .socialMedia svg {
   color: #000000d1;
-  height: 1em;
-  margin: 0 10px;
+  height: 1.3em;
+  margin: 0 15px;
 }
 
 .socialMedia {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: row;
   max-width: calc(1100px * 0.9);
   margin: auto;
+  padding: 20px 0;
 }
 </style>
 
