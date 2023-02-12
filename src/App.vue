@@ -38,7 +38,7 @@ footer {
 .bio h1 {
   line-height: 1.1;
   letter-spacing: 0.03rem;
-  font-size: 2.6rem;
+  font-size: 2.75rem;
   /* text-transform: uppercase; */
   font-weight: 300;
   letter-spacing: 0;
@@ -77,6 +77,13 @@ footer {
 .linkToBio:hover {
   background-color: black;
   color: white;
+}
+
+@media screen and (max-width: 350px) {
+.bio h1{
+  font-size: 2.5rem;
+}
+
 }
 
 @media screen and (min-width: 700px) {

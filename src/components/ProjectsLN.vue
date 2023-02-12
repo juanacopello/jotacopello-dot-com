@@ -139,6 +139,12 @@ button a:hover {
   }
 }
 
+@media screen and (max-width: 780px) {
+  article figure{
+    height: 200px;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   .container article .texto_project{
     padding: 0 0.5rem;
