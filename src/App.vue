@@ -1,13 +1,12 @@
 <template>
   <div>
     <header class="bio">
-      <h1>juana copello</h1>
+      <h1>Juana Copello</h1>
       <h2>visual journalist</h2>
     </header>
 
     <main>
       <AboutMe />
-
       <ProjectsLN />
     </main>
     <footer>
@@ -31,15 +30,14 @@ footer {
   /*background-color: #000000; #f4f0f0 #0c2332*/
   color: #000000;
   text-align: center;
-      width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
+  line-height: 1;
 }
 
 .bio h1 {
-  line-height: 1.1;
   letter-spacing: 0.03rem;
-  font-size: 2.75rem;
-  /* text-transform: uppercase; */
+  font-size: 2.5rem;
   font-weight: 300;
   letter-spacing: 0;
 }
@@ -47,8 +45,7 @@ footer {
 .bio h2 {
   font-size: 18px;
   font-weight: 200;
-  line-height: 1.3;
-  color: #0000009c;
+  color: #000000bd;
 }
 
 .bio p {
@@ -80,10 +77,9 @@ footer {
 }
 
 @media screen and (max-width: 350px) {
-.bio h1{
-  font-size: 2.5rem;
-}
-
+  .bio h1 {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 700px) {

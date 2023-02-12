@@ -206,7 +206,7 @@ export default {
         //Artemis
         {
           title:
-            "First the Moon, then Mars. Half a century after Apollo 11, the United States wants to conquer space again.",
+            "First the Moon, then Mars. Half a century after Apollo XI, the United States wants to conquer space again.",
           image:
             "https://resizer.glanacion.com/resizer/N82f4Ap-wiyxWgJjUVbVfiVuBIg=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XOJ3AB4RPVBBTPUNWPMT7S622E.jpg",
           alt: "artemis_captura_home",
@@ -220,6 +220,15 @@ export default {
             "https://resizer.glanacion.com/resizer/1efleqADafaG5DwG7uvgaRMDt6U=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WXIM3KE6QFDTNPNMTLEBTK2BTE.gif",
           alt: "plataformas_vacunas_covid19_gif",
           link: "https://www.lanacion.com.ar/sociedad/asi-actuan-vacunas-carrera-coronavirus-nid2406017/",
+          published: "La Nacion",
+        },
+           //Goles - Goles xG
+        {
+          title: 'Revealing numbers. The candidate team to win the World Cup and the most effective player at the soccer goal.',
+          image:
+            "https://buckets3.glanacion.com/lntools/anexos/fotos/82/51882.gif",
+          alt: "goals_xGgoals_gif",
+          link: "https://www.lanacion.com.ar/deportes/rendimiento-de-jugadores-nid08122022/",
           published: "La Nacion",
         },
         //Cómo ataca el virus en el organismo
@@ -240,16 +249,7 @@ export default {
           alt: "argentine_flag_butterfly",
           link: "https://www.lanacion.com.ar/sociedad/los-secretos-de-la-mariposa-bandera-argentina-nid20062022/#/",
           published: "La Nacion",
-        },       
-        //Goles - Goles xG
-        {
-          title: 'Revealing numbers. The candidate team to win the World Cup and the most effective player at the soccer goal.',
-          image:
-            "https://buckets3.glanacion.com/lntools/anexos/fotos/82/51882.gif",
-          alt: "goals_xGgoals_gif",
-          link: "https://www.lanacion.com.ar/deportes/rendimiento-de-jugadores-nid08122022/",
-          published: "La Nacion",
-        },
+        },    
 
       ],
     };

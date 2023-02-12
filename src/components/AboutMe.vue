@@ -8,7 +8,7 @@
       </p>
       <p>
         &#128373; I work at the Graphics team in LA NACION, a national news
-        media outlet, where I research and develop interactive visual stories.
+        media outlet, where I produce and develop interactive visual stories.
       </p>
       <p>
         &#128105;&#8205;&#128187;I'm also a lecturer at the Universidad Torcuato
@@ -18,7 +18,7 @@
       <p>&#127912; My pronouns are she/her</p>
       <p>
         &#128241; You can
-        <a href="mailto:copellojuana@gmail.com" target="_blank">e-mail</a> me or
+        <a href="mailto:copellojuana@gmail.com" target="_blank">email</a> me or
         find me on
         <a href="https://twitter.com/copellojuana" target="_blank">twitter</a>,
         <a href="https://github.com/juanacopello" target="_blank">github</a> and
@@ -63,7 +63,7 @@ p {
   }
 
   #myBio {
-    padding: 30px 0;
+    padding: 25px 0 30px;
   }
 
   h3 {
