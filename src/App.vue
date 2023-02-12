@@ -5,15 +5,11 @@
       <h2>visual journalist</h2>
     </header>
 
-    <!-- <a href=#myBio class="linkToBio">About Me</a>  -->
     <main>
-      <!-- <Icons /> -->
       <AboutMe />
-      
 
       <ProjectsLN />
     </main>
-    <!-- <a href=#top><button class="scrollTopBtn">Go back</button></a>  -->
     <footer>
       <Icons />
     </footer>
@@ -21,9 +17,9 @@
 </template>
 <style scoped>
 footer {
-  max-width: 1000px;
   margin: 50px auto 0;
   border-top: 2px solid #000000;
+  width: 90%;
 }
 
 .bio {
@@ -31,10 +27,12 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   box-sizing: unset;
-  padding: 1.5rem 10px 1rem;
+  padding: 1.5rem 0 1rem;
   /*background-color: #000000; #f4f0f0 #0c2332*/
   color: #000000;
   text-align: center;
+      width: 90%;
+    margin: auto;
 }
 
 .bio h1 {
@@ -81,11 +79,24 @@ footer {
   color: white;
 }
 
+@media screen and (min-width: 700px) {
+  .bio {
+    width: 90%;
+    margin: auto;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   .bio {
     max-width: calc(1100px * 0.9);
     padding: 2rem 0 1rem;
     margin: auto;
+    width: 100%;
+  }
+
+  footer {
+    max-width: 1000px;
+    width: 100%;
   }
 }
 </style>

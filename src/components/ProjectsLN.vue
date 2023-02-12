@@ -32,7 +32,7 @@ article a {
   text-transform: uppercase;
   font-weight: 500;
   color: #000000;
-  font-size: .8rem;
+  font-size: .85rem;
   margin-top: auto;
 }
 .projects {
@@ -97,7 +97,7 @@ article:hover:after {
 .container article .texto_project {
   padding: 0.5rem;
   font-weight: 200;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin: 3px 0;
   line-height: 1.5;
   color: #000000;
@@ -149,7 +149,7 @@ button a:hover {
 
   .container article img,
   .container article video {
-    height: 200px;
+    height: 220px;
   }
 
   .projects {

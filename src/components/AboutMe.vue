@@ -1,54 +1,58 @@
 <template>
   <div>
     <section id="myBio">
-      <!-- <h3>¡Hola!</h3> -->
       <p>&#128075;¡Hola!</p>
       <p>
-        &#128200; I'm a journalist specializing in
-        Data Visualization and Visual Storytelling based in
-        Buenos Aires, Argentina
+        &#128200; I'm a journalist specializing in Data Visualization and Visual
+        Storytelling based in Buenos Aires, Argentina
       </p>
       <p>
         &#128373; I work at the Graphics team in LA NACION, a national news
         media outlet, where I research and develop interactive visual stories.
       </p>
       <p>
-        &#128105;&#8205;&#128187;I'm also a lecturer at the Universidad Torcuato Di Tella's
-        Design School, where I teach introductory coding and data
+        &#128105;&#8205;&#128187;I'm also a lecturer at the Universidad Torcuato
+        Di Tella's Design School, where I teach introductory coding and data
         visualization classes to undergraduate students.
       </p>
       <p>&#127912; My pronouns are she/her</p>
-      <p>&#128241; You can   <a href="mailto:copellojuana@gmail.com" target="_blank"
-          >e-mail</a> me or find me on <a href="https://twitter.com/copellojuana" target="_blank"
-          >twitter</a>, <a href="https://github.com/juanacopello" target="_blank"
-          >github</a> and  <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
-          >linkedin</a></p>
+      <p>
+        &#128241; You can
+        <a href="mailto:copellojuana@gmail.com" target="_blank">e-mail</a> me or
+        find me on
+        <a href="https://twitter.com/copellojuana" target="_blank">twitter</a>,
+        <a href="https://github.com/juanacopello" target="_blank">github</a> and
+        <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
+          >linkedin</a
+        >
+      </p>
     </section>
   </div>
 </template>
 
 <style scoped>
-
-#myBio{
-  padding: 20px 0;
+#myBio {
+  padding: 20px 0 40px;
 }
 
-p{
+p {
   font-weight: 300;
-
 }
 
 p a {
-      color: black;
-    font-weight: 300;
-}
-
-div {
-  margin: 0 10px;
+  color: black;
+  font-weight: 300;
 }
 
 p {
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 780px) {
+  #myBio {
+    margin: 0 auto;
+    width: 90%;
+  }
 }
 @media screen and (min-width: 1000px) {
   div {
@@ -56,6 +60,10 @@ p {
     max-width: calc(1100px * 0.9);
     margin-bottom: 20px;
     margin: auto;
+  }
+
+  #myBio {
+    padding: 30px 0;
   }
 
   h3 {
