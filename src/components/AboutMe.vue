@@ -1,7 +1,7 @@
 <template>
   <div>
     <section id="myBio">
-      <p>&#128075;¡Hola!</p>
+      <p>&#128075; ¡Hola!</p>
       <p>
         &#128200; I'm a journalist specializing in Data Visualization and Visual
         Storytelling based in Buenos Aires, Argentina
@@ -11,7 +11,7 @@
         media outlet, where I produce and develop interactive visual stories.
       </p>
       <p>
-        &#128105;&#8205;&#128187;I'm also a lecturer at the Universidad Torcuato
+        &#128105;&#8205;&#128187; I'm also a lecturer at the Universidad Torcuato
         Di Tella's Design School, where I teach introductory coding and data
         visualization classes to undergraduate students.
       </p>
