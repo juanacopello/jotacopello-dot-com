@@ -33,17 +33,18 @@ article a {
   font-weight: 500;
   color: #000000;
   font-size: .8rem;
+  margin-top: auto;
 }
 .projects {
-  margin: 2.5rem auto;
-  width: 80%;
+  margin: 10px auto;
+  width: 90%;
 }
 
 .projects h3 {
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
-  color: #000000ba;
+  color: #2b2424;
   margin-bottom: 10px;
 }
 
@@ -148,11 +149,11 @@ button a:hover {
 
   .container article img,
   .container article video {
-    height: 250px;
+    height: 200px;
   }
 
   .projects {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 2rem auto;
   }
 

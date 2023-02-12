@@ -21,7 +21,7 @@
       <p>&#128241; You can   <a href="mailto:copellojuana@gmail.com" target="_blank"
           >e-mail</a> me or find me on <a href="https://twitter.com/copellojuana" target="_blank"
           >twitter</a>, <a href="https://github.com/juanacopello" target="_blank"
-          >github</a> or  <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
+          >github</a> and  <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
           >linkedin</a></p>
     </section>
   </div>
@@ -44,7 +44,7 @@ p a {
 }
 
 div {
-  margin: auto;
+  margin: 0 10px;
 }
 
 p {
@@ -55,6 +55,7 @@ p {
     /* height: 60vh; */
     max-width: calc(1100px * 0.9);
     margin-bottom: 20px;
+    margin: auto;
   }
 
   h3 {

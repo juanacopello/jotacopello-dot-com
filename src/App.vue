@@ -31,7 +31,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   box-sizing: unset;
-  padding: 2rem;
+  padding: 1.5rem 10px 1rem;
   /*background-color: #000000; #f4f0f0 #0c2332*/
   color: #000000;
   text-align: center;
