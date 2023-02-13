@@ -13,7 +13,7 @@
       <p>
         &#128105;&#8205;&#128187; I'm also a lecturer at the Universidad Torcuato
         Di Tella's Design School, where I teach introductory coding and data
-        visualization classes to undergraduate students.
+        visualization classes.
       </p>
       <p>&#127912; My pronouns are she/her</p>
       <p>
