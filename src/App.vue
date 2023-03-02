@@ -2,7 +2,7 @@
   <div>
     <header class="bio">
       <h1>Juana Copello</h1>
-      <h2>visual journalist</h2>
+      <h2>Visual Journalist</h2>
     </header>
 
     <main>

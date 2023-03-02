@@ -148,6 +148,7 @@ button a:hover {
 @media screen and (min-width: 1000px) {
   .container article .texto_project{
     padding: 0 0.5rem;
+    font-size: .8rem;
   }
   .container {
     grid-template-columns: repeat(3, 1fr);
@@ -201,6 +202,16 @@ export default {
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaH0_QaiQCYmg_2TEB952YGUZpZRGw_IumSBk5aPgcEmXHq7U0_PbUH09E3ufps4l6_cs&usqp=CAU",
           alt: "test_inflacion_captura_home",
           link: "https://www.lanacion.com.ar/economia/sabes-cuanto-vale-la-leche-y-la-nafta-testea-tu-nocion-de-los-precios-en-tiempos-de-inflacion-nid07092022/",
+          published: "La Nacion",
+        },
+          //Aplausómetro
+        {
+          title:
+            "Justice, Mauricio Macri, debt and abortion: year by year, which theme was the most applauded in each of the President's speech in Congress.",
+          image:
+            "https://resizer.glanacion.com/resizer/bgzZwVQheMcpBo7UsqTz3HjbJMU=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/PYNUBRJEH5HBTCJEBF3RWG4HXA.jpg",
+          alt: "alberto_fernandez_speech",
+          link: "https://www.lanacion.com.ar/politica/macri-deuda-y-aborto-aplausometro-ano-a-ano-cuanto-y-por-que-aplaudieron-a-alberto-fernandez-en-el-nid01032023/",
           published: "La Nacion",
         },
         //Artemis
