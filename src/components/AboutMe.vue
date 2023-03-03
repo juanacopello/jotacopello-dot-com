@@ -31,6 +31,11 @@
 </template>
 
 <style scoped>
+
+p strong{
+  font-weight: 600;
+}
+
 #myBio {
   padding: 20px 0 40px;
 }
