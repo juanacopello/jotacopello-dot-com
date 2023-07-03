@@ -7,11 +7,11 @@
         Storytelling based in Buenos Aires, Argentina.
       </p>
       <p>
-        &#128373; I work at the Graphics team in LA NACION, a national news
+        &#128373; I work at the Visuals team in LA NACION, a national news
         media outlet, where I produce and develop interactive visual stories.
       </p>
       <p>
-        &#128105;&#8205;&#128187; I'm also a lecturer at the Universidad Torcuato
+        &#128105;&#8205;&#128187; I'm also an Assistant Professor at the Universidad Torcuato
         Di Tella's Design School, where I teach introductory coding and data
         visualization classes.
       </p>
@@ -20,8 +20,8 @@
         &#128241; You can
         <a href="mailto:copellojuana@gmail.com" target="_blank">email</a> me or
         find me on
-        <a href="https://twitter.com/copellojuana" target="_blank">twitter</a>,
-        <a href="https://github.com/juanacopello" target="_blank">github</a> and
+        <a href="https://twitter.com/copellojuana" target="_blank">twitter</a>
+        and
         <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
           >linkedin</a
         >.

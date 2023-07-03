@@ -10,11 +10,20 @@
             </figure>
             <h4 class="texto_project">{{ articles[i].title }}</h4>
             <h5 class="publisher">{{ articles[i].published }}</h5>
+
+              <div class="rolesContainer">
+
+              <p v-for="(roles, j) in articles[i].role" :key="j" class="roles">
+              {{ roles }}
+            </p>
+            </div>
+
+
           </a>
         </article>
       </div>
     </section>
-   
+
   </div>
 </template>
 
@@ -132,6 +141,24 @@ button a:hover {
   opacity: 0.7;
 }
 
+.rolesContainer{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.roles{
+  border: 1px solid #00000087;
+    border-radius: 3px;
+    padding: 2px 10px;
+    color: #000;
+    margin-left: 7px;
+    font-size: 11px !important;
+    pointer-events: none;
+    font-weight: 200 !important;
+    text-transform: lowercase;
+
+}
 
 @media screen and (min-width: 500px) {
   .container {
@@ -164,7 +191,7 @@ button a:hover {
     margin: 2rem auto;
   }
 
- 
+
 }
 </style>
 
@@ -183,6 +210,7 @@ export default {
           alt: "simulacion_particulas_colectivo_gif",
           link: "https://www.lanacion.com.ar/sociedad/simulacion-asi-se-puede-propagar-el-virus-en-el-transporte-nid11042021/",
           published: "La Nacion",
+          role: ["Reporting"]
         },
         //Plaza de Mayo
         {
@@ -193,26 +221,30 @@ export default {
           alt: "plaza_de_mayo_gif",
           link: "https://www.lanacion.com.ar/politica/plaza-de-mayo-en-llamas-asi-ocurrieron-las-cinco-muertes-que-cambiaron-la-historia-de-la-argentina-nid19122021/",
           published: "La Nacion",
+          role: ["Reporting"]
+        },
+            //Plataformas de vacunas
+            {
+          title: "How vaccines work in the race against coronavirus",
+          image:
+            "https://resizer.glanacion.com/resizer/1efleqADafaG5DwG7uvgaRMDt6U=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WXIM3KE6QFDTNPNMTLEBTK2BTE.gif",
+          alt: "plataformas_vacunas_covid19_gif",
+          link: "https://www.lanacion.com.ar/sociedad/asi-actuan-vacunas-carrera-coronavirus-nid2406017/",
+          published: "La Nacion",
+          role: ["Reporting"]
         },
         //Distorsión de precios
-        {
-          title:
-            "Do you know how much milk and gasoline cost? Test your notion of prices in times of uncontrolled inflation.",
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaH0_QaiQCYmg_2TEB952YGUZpZRGw_IumSBk5aPgcEmXHq7U0_PbUH09E3ufps4l6_cs&usqp=CAU",
-          alt: "test_inflacion_captura_home",
-          link: "https://www.lanacion.com.ar/economia/sabes-cuanto-vale-la-leche-y-la-nafta-testea-tu-nocion-de-los-precios-en-tiempos-de-inflacion-nid07092022/",
-          published: "La Nacion",
-        },
+     
           //Aplausómetro
         {
           title:
-            "Justice, Mauricio Macri, debt and abortion: year by year, which theme was the most applauded in each of the President's speech in Congress.",
+            "Justice, Mauricio Macri, debt and abortion: year by year, which theme was the most clapped in each of the President's speech in Congress.",
           image:
             "https://resizer.glanacion.com/resizer/bgzZwVQheMcpBo7UsqTz3HjbJMU=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/PYNUBRJEH5HBTCJEBF3RWG4HXA.jpg",
           alt: "alberto_fernandez_speech",
           link: "https://www.lanacion.com.ar/politica/macri-deuda-y-aborto-aplausometro-ano-a-ano-cuanto-y-por-que-aplaudieron-a-alberto-fernandez-en-el-nid01032023/",
           published: "La Nacion",
+          role: ["Data analysis", "Reporting"]
         },
         //Artemis
         {
@@ -223,16 +255,19 @@ export default {
           alt: "artemis_captura_home",
           link: "https://www.lanacion.com.ar/sociedad/primero-la-luna-luego-marte-medio-siglo-despues-del-apolo-11-estados-unidos-quiere-volver-a-nid28082022/#/",
           published: "La Nacion",
+          role: ["Reporting"]
         },
-        //Plataformas de vacunas
         {
-          title: "How vaccines work in the race against coronavirus",
+          title:
+            "Do you know how much milk and gasoline cost? Test your notion of prices in times of uncontrolled inflation.",
           image:
-            "https://resizer.glanacion.com/resizer/1efleqADafaG5DwG7uvgaRMDt6U=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WXIM3KE6QFDTNPNMTLEBTK2BTE.gif",
-          alt: "plataformas_vacunas_covid19_gif",
-          link: "https://www.lanacion.com.ar/sociedad/asi-actuan-vacunas-carrera-coronavirus-nid2406017/",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaH0_QaiQCYmg_2TEB952YGUZpZRGw_IumSBk5aPgcEmXHq7U0_PbUH09E3ufps4l6_cs&usqp=CAU",
+          alt: "test_inflacion_captura_home",
+          link: "https://www.lanacion.com.ar/economia/sabes-cuanto-vale-la-leche-y-la-nafta-testea-tu-nocion-de-los-precios-en-tiempos-de-inflacion-nid07092022/",
           published: "La Nacion",
+          role: ["Reporting", "Development"]
         },
+    
            //Goles - Goles xG
         {
           title: 'Revealing numbers. The candidate team to win the World Cup and the most effective player at the soccer goal.',
@@ -241,6 +276,7 @@ export default {
           alt: "goals_xGgoals_gif",
           link: "https://www.lanacion.com.ar/deportes/rendimiento-de-jugadores-nid08122022/",
           published: "La Nacion",
+          role: ["Data analysis"]
         },
         //Cómo ataca el virus en el organismo
         {
@@ -250,6 +286,7 @@ export default {
           alt: "covid19_virus_attack_body_img",
           link: "https://www.lanacion.com.ar/sociedad/dia-dia-como-actua-virus-organismo-nid2358830/",
           published: "La Nacion",
+          role: ["Reporting"]
         },
         //Mariposa bandera argentina
         {
@@ -260,7 +297,8 @@ export default {
           alt: "argentine_flag_butterfly",
           link: "https://www.lanacion.com.ar/sociedad/los-secretos-de-la-mariposa-bandera-argentina-nid20062022/#/",
           published: "La Nacion",
-        },    
+          role: ["Reporting", "Development"]
+        },
 
       ],
     };

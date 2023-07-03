@@ -40,6 +40,7 @@ footer {
   font-size: 2.5rem;
   font-weight: 300;
   letter-spacing: 0;
+  padding-bottom: 5px;
 }
 
 .bio h2 {
