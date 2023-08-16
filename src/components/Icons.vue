@@ -4,9 +4,6 @@
         <a href="https://twitter.com/copellojuana" target="_blank"
           ><font-awesome-icon icon="fa-brands fa-twitter"
         /></a>
-        <a href="https://github.com/juanacopello" target="_blank"
-          ><font-awesome-icon icon="fa-brands fa-github-alt"
-        /></a>
         <a href="https://www.linkedin.com/in/juanacopello" target="_blank"
           ><font-awesome-icon icon="fa-brands fa-linkedin-in"
         /></a>

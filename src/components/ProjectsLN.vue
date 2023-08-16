@@ -11,19 +11,15 @@
             <h4 class="texto_project">{{ articles[i].title }}</h4>
             <h5 class="publisher">{{ articles[i].published }}</h5>
 
-              <div class="rolesContainer">
-
+            <div class="rolesContainer">
               <p v-for="(roles, j) in articles[i].role" :key="j" class="roles">
-              {{ roles }}
-            </p>
+                {{ roles }}
+              </p>
             </div>
-
-
           </a>
         </article>
       </div>
     </section>
-
   </div>
 </template>
 
@@ -41,7 +37,7 @@ article a {
   text-transform: uppercase;
   font-weight: 500;
   color: #000000;
-  font-size: .85rem;
+  font-size: 0.85rem;
   margin-top: auto;
 }
 .projects {
@@ -96,7 +92,6 @@ article:hover:after {
   width: 100%;
   height: 100%;
   border-bottom: 1px solid #e2e6e7;
-
 }
 
 .container article video {
@@ -141,23 +136,22 @@ button a:hover {
   opacity: 0.7;
 }
 
-.rolesContainer{
+.rolesContainer {
   display: flex;
   flex-direction: row;
   padding-bottom: 10px;
 }
 
-.roles{
+.roles {
   border: 1px solid #00000087;
-    border-radius: 3px;
-    padding: 2px 10px;
-    color: #000;
-    margin-left: 7px;
-    font-size: 11px !important;
-    pointer-events: none;
-    font-weight: 200 !important;
-    text-transform: lowercase;
-
+  border-radius: 3px;
+  padding: 2px 10px;
+  color: #000;
+  margin-left: 7px;
+  font-size: 11px !important;
+  pointer-events: none;
+  font-weight: 200 !important;
+  text-transform: lowercase;
 }
 
 @media screen and (min-width: 500px) {
@@ -167,15 +161,15 @@ button a:hover {
 }
 
 @media screen and (max-width: 780px) {
-  article figure{
+  article figure {
     height: 200px;
   }
 }
 
 @media screen and (min-width: 1000px) {
-  .container article .texto_project{
+  .container article .texto_project {
     padding: 0 0.5rem;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   .container {
     grid-template-columns: repeat(3, 1fr);
@@ -190,12 +184,14 @@ button a:hover {
     max-width: 1000px;
     margin: 2rem auto;
   }
-
-
 }
 </style>
 
 <script>
+import capturaViajes from "@/images/viajes_precandidatos.gif";
+import gifInflacion from "@/images/gif_inflacion.gif";
+import gifCromanion from "@/images/cromanion.gif";
+
 export default {
   name: "ProjectsLN",
   data() {
@@ -210,7 +206,7 @@ export default {
           alt: "simulacion_particulas_colectivo_gif",
           link: "https://www.lanacion.com.ar/sociedad/simulacion-asi-se-puede-propagar-el-virus-en-el-transporte-nid11042021/",
           published: "La Nacion",
-          role: ["Reporting"]
+          role: ["Reporting"],
         },
         //Plaza de Mayo
         {
@@ -221,21 +217,20 @@ export default {
           alt: "plaza_de_mayo_gif",
           link: "https://www.lanacion.com.ar/politica/plaza-de-mayo-en-llamas-asi-ocurrieron-las-cinco-muertes-que-cambiaron-la-historia-de-la-argentina-nid19122021/",
           published: "La Nacion",
-          role: ["Reporting"]
+          role: ["Reporting"],
         },
-            //Plataformas de vacunas
-            {
-          title: "How vaccines work in the race against coronavirus",
+        //Plataformas de vacunas
+        {
+          title: "How the vaccines against coronavirus work",
           image:
             "https://resizer.glanacion.com/resizer/1efleqADafaG5DwG7uvgaRMDt6U=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WXIM3KE6QFDTNPNMTLEBTK2BTE.gif",
           alt: "plataformas_vacunas_covid19_gif",
           link: "https://www.lanacion.com.ar/sociedad/asi-actuan-vacunas-carrera-coronavirus-nid2406017/",
           published: "La Nacion",
-          role: ["Reporting"]
+          role: ["Reporting"],
         },
-        //Distorsión de precios
-     
-          //Aplausómetro
+
+        //Aplausómetro
         {
           title:
             "Justice, Mauricio Macri, debt and abortion: year by year, which theme was the most clapped in each of the President's speech in Congress.",
@@ -244,7 +239,7 @@ export default {
           alt: "alberto_fernandez_speech",
           link: "https://www.lanacion.com.ar/politica/macri-deuda-y-aborto-aplausometro-ano-a-ano-cuanto-y-por-que-aplaudieron-a-alberto-fernandez-en-el-nid01032023/",
           published: "La Nacion",
-          role: ["Data analysis", "Reporting"]
+          role: ["Data analysis", "Reporting"],
         },
         //Artemis
         {
@@ -255,28 +250,49 @@ export default {
           alt: "artemis_captura_home",
           link: "https://www.lanacion.com.ar/sociedad/primero-la-luna-luego-marte-medio-siglo-despues-del-apolo-11-estados-unidos-quiere-volver-a-nid28082022/#/",
           published: "La Nacion",
-          role: ["Reporting"]
+          role: ["Reporting"],
         },
+        //Distorsión de precios
         {
           title:
             "Do you know how much milk and gasoline cost? Test your notion of prices in times of uncontrolled inflation.",
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaH0_QaiQCYmg_2TEB952YGUZpZRGw_IumSBk5aPgcEmXHq7U0_PbUH09E3ufps4l6_cs&usqp=CAU",
+          image: gifInflacion,
           alt: "test_inflacion_captura_home",
           link: "https://www.lanacion.com.ar/economia/sabes-cuanto-vale-la-leche-y-la-nafta-testea-tu-nocion-de-los-precios-en-tiempos-de-inflacion-nid07092022/",
           published: "La Nacion",
-          role: ["Reporting", "Development"]
+          role: ["Reporting", "Development"],
         },
-    
-           //Goles - Goles xG
+        //Elecciones 2023: Mapa de resultados en todo el país
         {
-          title: 'Revealing numbers. The candidate team to win the World Cup and the most effective player at the soccer goal.',
+          title:
+            "Election map. Winners and losers in each province and district of the 2023 Presidential primaries",
+          image:
+            "https://resizer.glanacion.com/resizer/TwQkhD1vIs2bLjVhNiVupe-oqGo=/488x325/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KAPL6TKWS5GQXL3NRJDZRHUGBY.png",
+          alt: "mapa_resultados_en_el_pais_2023",
+          link: "https://www.lanacion.com.ar/politica/paso-2023-el-mapa-de-resultados-de-las-elecciones-a-presidente-en-todo-el-pais-nid13082023/#/presidente",
+          published: "La Nacion",
+          role: ["Reporting", "Development"],
+        },
+        //Viajes de precandidatos en todo el país
+        {
+          title:
+            "Campaign log. Thousands of kilometers, crossed strategies and an abrupt ending",
+          image: capturaViajes,
+          alt: "viajes_de_precandidatos_en_todo_el_pais",
+          link: "https://www.lanacion.com.ar/politica/elecciones-2023-como-fue-la-campana-de-los-principales-candidatos-para-las-paso-nid12082023/",
+          published: "La Nacion",
+          role: ["Development"],
+        },
+        //Goles - Goles xG
+        {
+          title:
+            "Revealing numbers. The candidate team to win the World Cup and the most effective player at the soccer goal.",
           image:
             "https://buckets3.glanacion.com/lntools/anexos/fotos/82/51882.gif",
           alt: "goals_xGgoals_gif",
           link: "https://www.lanacion.com.ar/deportes/rendimiento-de-jugadores-nid08122022/",
           published: "La Nacion",
-          role: ["Data analysis"]
+          role: ["Data analysis"],
         },
         //Cómo ataca el virus en el organismo
         {
@@ -286,20 +302,17 @@ export default {
           alt: "covid19_virus_attack_body_img",
           link: "https://www.lanacion.com.ar/sociedad/dia-dia-como-actua-virus-organismo-nid2358830/",
           published: "La Nacion",
-          role: ["Reporting"]
+          role: ["Reporting"],
         },
-        //Mariposa bandera argentina
+        //Cromañón
         {
-          title:
-            'The secrets of the Argentine flag butterfly',
-          image:
-            "https://resizer.glanacion.com/resizer/d5ionfYQLCebBUMJs9WpvOJW0FU=/1200x800/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HS3Y43X5PBGP3BPCJQT4MJAN64.jpg",
-          alt: "argentine_flag_butterfly",
-          link: "https://www.lanacion.com.ar/sociedad/los-secretos-de-la-mariposa-bandera-argentina-nid20062022/#/",
+          title: "15th Anniversary of Cromañón: tour through a sinister maze",
+          image: gifCromanion,
+          alt: "cromanion_sinister_maze_gif",
+          link: "https://especialess3.lanacion.com.ar/19/12/3d-cromanon/",
           published: "La Nacion",
-          role: ["Reporting", "Development"]
+          role: ["Reporting"],
         },
-
       ],
     };
   },
