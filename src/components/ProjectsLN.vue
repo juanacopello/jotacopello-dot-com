@@ -190,7 +190,8 @@ button a:hover {
 <script>
 import capturaViajes from "@/images/viajes_precandidatos.gif";
 import gifInflacion from "@/images/gif_inflacion.gif";
-import gifCromanion from "@/images/cromanion.gif";
+import gifCromanion from "@/images/cromanion_2.gif";
+import cortedeBoleta from "@/images/gif_corte_de_boleta.gif"
 
 export default {
   name: "ProjectsLN",
@@ -241,17 +242,6 @@ export default {
           published: "La Nacion",
           role: ["Data analysis", "Reporting"],
         },
-        //Artemis
-        {
-          title:
-            "First the Moon, then Mars. Half a century after Apollo XI, the United States wants to conquer space again.",
-          image:
-            "https://resizer.glanacion.com/resizer/N82f4Ap-wiyxWgJjUVbVfiVuBIg=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XOJ3AB4RPVBBTPUNWPMT7S622E.jpg",
-          alt: "artemis_captura_home",
-          link: "https://www.lanacion.com.ar/sociedad/primero-la-luna-luego-marte-medio-siglo-despues-del-apolo-11-estados-unidos-quiere-volver-a-nid28082022/#/",
-          published: "La Nacion",
-          role: ["Reporting"],
-        },
         //Distorsión de precios
         {
           title:
@@ -271,7 +261,18 @@ export default {
           alt: "mapa_resultados_en_el_pais_2023",
           link: "https://www.lanacion.com.ar/politica/paso-2023-el-mapa-de-resultados-de-las-elecciones-a-presidente-en-todo-el-pais-nid13082023/#/presidente",
           published: "La Nacion",
-          role: ["Reporting", "Development"],
+          role: ["Reporting"],
+        },
+         //Artemis
+         {
+          title:
+            "First the Moon, then Mars. Half a century after Apollo XI, the United States wants to conquer space again.",
+          image:
+            "https://resizer.glanacion.com/resizer/N82f4Ap-wiyxWgJjUVbVfiVuBIg=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XOJ3AB4RPVBBTPUNWPMT7S622E.jpg",
+          alt: "artemis_captura_home",
+          link: "https://www.lanacion.com.ar/sociedad/primero-la-luna-luego-marte-medio-siglo-despues-del-apolo-11-estados-unidos-quiere-volver-a-nid28082022/#/",
+          published: "La Nacion",
+          role: ["Reporting"],
         },
         //Viajes de precandidatos en todo el país
         {
@@ -280,6 +281,16 @@ export default {
           image: capturaViajes,
           alt: "viajes_de_precandidatos_en_todo_el_pais",
           link: "https://www.lanacion.com.ar/politica/elecciones-2023-como-fue-la-campana-de-los-principales-candidatos-para-las-paso-nid12082023/",
+          published: "La Nacion",
+          role: ["Development"],
+        },
+          //Corte de boleta 2023 PASO
+          {
+          title:
+            "Loyalties under the spotlight. The mayors who bet heavily on ballot cutting and hurt Massa and Larreta",
+          image: cortedeBoleta,
+          alt: "corte_de_boleta_paso",
+          link: "https://www.lanacion.com.ar/politica/lealtades-bajo-la-lupa-los-intendentes-que-apostaron-fuerte-al-corte-de-boleta-y-perjudicaron-a-nid15082023/#/",
           published: "La Nacion",
           role: ["Development"],
         },
