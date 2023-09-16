@@ -191,7 +191,8 @@ button a:hover {
 import capturaViajes from "@/images/viajes_precandidatos.gif";
 import gifInflacion from "@/images/gif_inflacion.gif";
 import gifCromanion from "@/images/cromanion_2.gif";
-import cortedeBoleta from "@/images/gif_corte_de_boleta.gif"
+import mileiGraficos from "@/images/milei_graficos.gif"
+import gifCalculadora from "@/images/gif_calculadora.gif"
 
 export default {
   name: "ProjectsLN",
@@ -230,7 +231,6 @@ export default {
           published: "La Nacion",
           role: ["Reporting"],
         },
-
         //Aplausómetro
         {
           title:
@@ -284,26 +284,26 @@ export default {
           published: "La Nacion",
           role: ["Development"],
         },
-          //Corte de boleta 2023 PASO
+          //Graficos de Milei
           {
           title:
-            "Loyalties under the spotlight. The mayors who bet heavily on ballot cutting and hurt Massa and Larreta",
-          image: cortedeBoleta,
-          alt: "corte_de_boleta_paso",
+            "Who elected Milei? The economic analysis of the libertarian vote ",
+          image: mileiGraficos,
+          alt: "graficos_dispersion_milei",
           link: "https://www.lanacion.com.ar/politica/lealtades-bajo-la-lupa-los-intendentes-que-apostaron-fuerte-al-corte-de-boleta-y-perjudicaron-a-nid15082023/#/",
           published: "La Nacion",
           role: ["Development"],
         },
-        //Goles - Goles xG
+        //Calculadora Electoral
         {
           title:
-            "Revealing numbers. The candidate team to win the World Cup and the most effective player at the soccer goal.",
+            "Will there be a ballottage or will it be defined in the first round? Predict how the votes will rearrange in October in the general election",
           image:
-            "https://buckets3.glanacion.com/lntools/anexos/fotos/82/51882.gif",
-          alt: "goals_xGgoals_gif",
-          link: "https://www.lanacion.com.ar/deportes/rendimiento-de-jugadores-nid08122022/",
+          gifCalculadora,
+          alt: "calculator_gif",
+          link: "https://www.lanacion.com.ar/politica/elecciones-2023-la-calculadora-para-proyectar-como-se-reacomodaran-los-votos-en-la-primera-vuelta-nid26082023/",
           published: "La Nacion",
-          role: ["Data analysis"],
+          role: ["Reporting"],
         },
         //Cómo ataca el virus en el organismo
         {
@@ -317,7 +317,7 @@ export default {
         },
         //Cromañón
         {
-          title: "15th Anniversary of Cromañón: tour through a sinister maze",
+          title: "15th anniversary of Cromañón: tour through a sinister maze",
           image: gifCromanion,
           alt: "cromanion_sinister_maze_gif",
           link: "https://especialess3.lanacion.com.ar/19/12/3d-cromanon/",
