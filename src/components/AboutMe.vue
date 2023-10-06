@@ -7,14 +7,17 @@
         Storytelling based in Buenos Aires, Argentina.
       </p>
       <p>
-        &#128373; I work at the Visuals team in LA NACION, a national news
-        media outlet, where I produce and develop interactive stories.
+        &#128373; I work at the Digital Storytelling and Graphics team in LA NACION, a national news
+        media outlet, where I produce and develop interactive projects.
       </p>
       <p>
-        &#128105;&#8205;&#128187; I'm an Assistant Professor at the Universidad Torcuato
+        &#128105;&#8205;&#128187; Also, I am an Assistant Professor at the Universidad Torcuato
         Di Tella's Design School, where I teach introductory coding and data
         visualization classes.
       </p>
+      <!-- <p>
+        &#127942;My work has been recognised with various accolades, including awards from organisations such as Society for News Design, Malofiej and Sociedad Interamericana de Prensa 
+      </p> -->
       <p>&#127912; My pronouns are she/her.</p>
       <p>
         &#128241; You can

@@ -292,7 +292,7 @@ export default {
           alt: "graficos_dispersion_milei",
           link: "https://www.lanacion.com.ar/politica/lealtades-bajo-la-lupa-los-intendentes-que-apostaron-fuerte-al-corte-de-boleta-y-perjudicaron-a-nid15082023/#/",
           published: "La Nacion",
-          role: ["Development"],
+          role: ["Data Visualization"],
         },
         //Calculadora Electoral
         {
