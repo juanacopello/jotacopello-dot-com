@@ -18,7 +18,7 @@
       <!-- <p>
         &#127942;My work has been recognised with various accolades, including awards from organisations such as Society for News Design, Malofiej and Sociedad Interamericana de Prensa 
       </p> -->
-      <p>&#127912; My pronouns are she/her.</p>
+      <p>&#128105; My pronouns are she/her.</p>
       <p>
         &#128241; You can
         <a href="mailto:copellojuana@gmail.com" target="_blank">email</a> me or
