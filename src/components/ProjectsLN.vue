@@ -290,7 +290,7 @@ export default {
             "Who elected Milei? The economic analysis of the libertarian vote ",
           image: mileiGraficos,
           alt: "graficos_dispersion_milei",
-          link: "https://www.lanacion.com.ar/politica/lealtades-bajo-la-lupa-los-intendentes-que-apostaron-fuerte-al-corte-de-boleta-y-perjudicaron-a-nid15082023/#/",
+          link: "https://www.lanacion.com.ar/sociedad/quien-eligio-a-milei-el-analisis-economico-del-voto-libertario-y-el-grafico-revelador-que-implosiono-nid07092023/#/",
           published: "La Nacion",
           role: ["Data Visualization"],
         },
