@@ -11,7 +11,7 @@
         media outlet, where I produce and develop interactive projects.
       </p>
       <p>
-        &#128105;&#8205;&#128187; Also, I am an Assistant Professor at the Universidad Torcuato
+        &#128105;&#8205;&#128187; I am also an Assistant Professor at the Universidad Torcuato
         Di Tella's Design School, where I teach introductory coding and data
         visualization classes.
       </p>
