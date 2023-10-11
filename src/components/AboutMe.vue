@@ -3,7 +3,7 @@
     <section id="myBio">
       <p>&#128075; ¡Hola!</p>
       <p>
-        &#128200; I'm a journalist specializing in Data Visualization and Visual
+        &#128200; I'm a journalist specialized in Data Visualization and Visual
         Storytelling based in Buenos Aires, Argentina.
       </p>
       <p>
