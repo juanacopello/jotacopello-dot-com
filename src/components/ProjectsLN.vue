@@ -193,6 +193,8 @@ import gifInflacion from "@/images/gif_inflacion.gif";
 import gifCromanion from "@/images/cromanion_2.gif";
 import mileiGraficos from "@/images/milei_graficos.gif"
 import gifCalculadora from "@/images/gif_calculadora.gif"
+import difGeneralPaso from "@/images/gral_paso_diferencia.png"
+import cardsDebate from "@/images/debate_presidencial_captura.png"
 
 export default {
   name: "ProjectsLN",
@@ -255,11 +257,11 @@ export default {
         //Elecciones 2023: Mapa de resultados en todo el país
         {
           title:
-            "Election map. Winners and losers in each province and district of the 2023 Presidential primaries",
+            "The new political map: The results of the 2023 general elections",
           image:
             "https://resizer.glanacion.com/resizer/TwQkhD1vIs2bLjVhNiVupe-oqGo=/488x325/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KAPL6TKWS5GQXL3NRJDZRHUGBY.png",
           alt: "mapa_resultados_en_el_pais_2023",
-          link: "https://www.lanacion.com.ar/politica/paso-2023-el-mapa-de-resultados-de-las-elecciones-a-presidente-en-todo-el-pais-nid13082023/#/presidente",
+          link: "https://www.lanacion.com.ar/politica/elecciones-2023-los-resultados-de-los-comicios-presidenciales-en-todo-el-pais-nid22102023/#/presidente",
           published: "La Nacion",
           role: ["Reporting"],
         },
@@ -324,6 +326,25 @@ export default {
           published: "La Nacion",
           role: ["Reporting"],
         },
+        //Diferencia General  
+        {
+          title: "Can Javier Milei win in the first round? The feat that he seeks and that challenges electoral statistics",
+          image: difGeneralPaso,
+          alt: "dif_general_paso_captura",
+          link: "https://www.lanacion.com.ar/politica/puede-ganar-en-primera-vuelta-la-hazana-que-busca-javier-milei-y-que-desafia-a-las-estadisticas-nid21102023/",
+          published: "La Nacion",
+          role: ["Data visualization"],
+        },
+        //Cards debate  
+        {
+          title: "Who won the presidential debate? The evaluation of LA NACION's journalists on the performance of the candidates",
+          image: cardsDebate,
+          alt: "dif_general_paso_captura",
+          link: "https://www.lanacion.com.ar/politica/quien-gano-el-debate-presidencial-2023-los-aciertos-y-errores-de-los-candidatos-segun-los-columnitas-nid02102023/#/",
+          published: "La Nacion",
+          role: ["Development"],
+        },
+        
       ],
     };
   },
