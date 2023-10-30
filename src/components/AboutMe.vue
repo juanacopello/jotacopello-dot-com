@@ -7,7 +7,7 @@
         Storytelling based in Buenos Aires, Argentina.
       </p>
       <p>
-        &#128373; I work at the Digital Storytelling and Graphics team in LA NACION, a national news
+        &#128373; I work at the Visual Storytelling and Graphics team in LA NACION, a national news
         media outlet, where I produce and develop interactive projects.
       </p>
       <p>
