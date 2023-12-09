@@ -259,7 +259,7 @@ export default {
           title:
             "The new political map: The results of the 2023 general elections",
           image:
-            "https://resizer.glanacion.com/resizer/TwQkhD1vIs2bLjVhNiVupe-oqGo=/488x325/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/KAPL6TKWS5GQXL3NRJDZRHUGBY.png",
+            "https://resizer.glanacion.com/resizer/v2/-MKT5IWKLFZA4POPEVH3R3OGC6M.jpg?auth=b2ada88639b2f41ebad22235e91ae83d6872abd6096b68dba46ab6fdbd41c763&width=880&height=586&quality=70&smart=true",
           alt: "mapa_resultados_en_el_pais_2023",
           link: "https://www.lanacion.com.ar/politica/elecciones-2023-los-resultados-de-los-comicios-presidenciales-en-todo-el-pais-nid22102023/#/presidente",
           published: "La Nacion",
@@ -344,6 +344,16 @@ export default {
           published: "La Nacion",
           role: ["Development"],
         },
+        //Comparativo de discursos de asunción  
+        //     {
+        //   title: "From Néstor Kirchner to Javier Milei: Comparison of presidential inaugural speeches",
+        //   image: cardsDebate,
+        //   alt: "gif_comparacion_discursos_asuncion",
+        //   link: "https://www.lanacion.com.ar/politica/quien-gano-el-debate-presidencial-2023-los-aciertos-y-errores-de-los-candidatos-segun-los-columnitas-nid02102023/#/",
+        //   published: "La Nacion",
+        //   role: ["Development"],
+        // },
+        
         
       ],
     };
