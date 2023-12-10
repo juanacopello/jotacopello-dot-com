@@ -195,6 +195,8 @@ import mileiGraficos from "@/images/milei_graficos.gif"
 import gifCalculadora from "@/images/gif_calculadora.gif"
 import difGeneralPaso from "@/images/gral_paso_diferencia.png"
 import cardsDebate from "@/images/debate_presidencial_captura.png"
+import discursosGif from "@/images/discursos.gif"
+
 
 export default {
   name: "ProjectsLN",
@@ -252,7 +254,7 @@ export default {
           alt: "test_inflacion_captura_home",
           link: "https://www.lanacion.com.ar/economia/sabes-cuanto-vale-la-leche-y-la-nafta-testea-tu-nocion-de-los-precios-en-tiempos-de-inflacion-nid07092022/",
           published: "La Nacion",
-          role: ["Reporting", "Development"],
+          role: ["Reporting", "Web development"],
         },
         //Elecciones 2023: Mapa de resultados en todo el país
         {
@@ -284,7 +286,7 @@ export default {
           alt: "viajes_de_precandidatos_en_todo_el_pais",
           link: "https://www.lanacion.com.ar/politica/elecciones-2023-como-fue-la-campana-de-los-principales-candidatos-para-las-paso-nid12082023/",
           published: "La Nacion",
-          role: ["Development"],
+          role: ["Web development"],
         },
           //Graficos de Milei
           {
@@ -342,18 +344,17 @@ export default {
           alt: "dif_general_paso_captura",
           link: "https://www.lanacion.com.ar/politica/quien-gano-el-debate-presidencial-2023-los-aciertos-y-errores-de-los-candidatos-segun-los-columnitas-nid02102023/#/",
           published: "La Nacion",
-          role: ["Development"],
+          role: ["Web development"],
         },
         //Comparativo de discursos de asunción  
-        //     {
-        //   title: "From Néstor Kirchner to Javier Milei: Comparison of presidential inaugural speeches",
-        //   image: cardsDebate,
-        //   alt: "gif_comparacion_discursos_asuncion",
-        //   link: "https://www.lanacion.com.ar/politica/quien-gano-el-debate-presidencial-2023-los-aciertos-y-errores-de-los-candidatos-segun-los-columnitas-nid02102023/#/",
-        //   published: "La Nacion",
-        //   role: ["Development"],
-        // },
-        
+          {
+        title: "From Néstor Kirchner to Javier Milei: Comparison of presidential inaugural speeches",
+        image: discursosGif,
+        alt: "gif_comparacion_discursos_asuncion",
+        link: "https://www.lanacion.com.ar/politica/focos-frases-y-aplausos-de-nestor-kirchner-a-javier-milei-comparativo-de-discursos-de-asuncion-nid10122023/",
+        published: "La Nacion",
+        role: ["Web development"],
+        },
         
       ],
     };
