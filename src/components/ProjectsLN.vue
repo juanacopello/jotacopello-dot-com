@@ -259,18 +259,18 @@ export default {
         //Elecciones 2023: Mapa de resultados en todo el país
         {
           title:
-            "The new political map: The results of the 2023 general elections",
+            "The new political map: the results of the 2023 general elections",
           image:
             "https://resizer.glanacion.com/resizer/v2/-MKT5IWKLFZA4POPEVH3R3OGC6M.jpg?auth=b2ada88639b2f41ebad22235e91ae83d6872abd6096b68dba46ab6fdbd41c763&width=880&height=586&quality=70&smart=true",
           alt: "mapa_resultados_en_el_pais_2023",
           link: "https://www.lanacion.com.ar/politica/elecciones-2023-los-resultados-de-los-comicios-presidenciales-en-todo-el-pais-nid22102023/#/presidente",
           published: "La Nacion",
-          role: ["Reporting"],
+          role: ["data reporting"],
         },
          //Artemis
          {
           title:
-            "First the Moon, then Mars. Half a century after Apollo XI, the United States wants to conquer space again.",
+            "First the Moon, then Mars. Half a century after Apollo XI, United States wants to conquer space again.",
           image:
             "https://resizer.glanacion.com/resizer/N82f4Ap-wiyxWgJjUVbVfiVuBIg=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XOJ3AB4RPVBBTPUNWPMT7S622E.jpg",
           alt: "artemis_captura_home",
@@ -297,6 +297,33 @@ export default {
           link: "https://www.lanacion.com.ar/sociedad/quien-eligio-a-milei-el-analisis-economico-del-voto-libertario-y-el-grafico-revelador-que-implosiono-nid07092023/#/",
           published: "La Nacion",
           role: ["Data Visualization"],
+        },
+              //Diferencia General  
+              {
+          title: "Can Javier Milei win in the first round? The feat that he seeks and that challenges electoral statistics",
+          image: difGeneralPaso,
+          alt: "dif_general_paso_captura",
+          link: "https://www.lanacion.com.ar/politica/puede-ganar-en-primera-vuelta-la-hazana-que-busca-javier-milei-y-que-desafia-a-las-estadisticas-nid21102023/",
+          published: "La Nacion",
+          role: ["Data visualization"],
+        },
+        //Cards debate  
+        {
+          title: "Who won the presidential debate? The evaluation of LA NACION's journalists on the performance of the candidates",
+          image: cardsDebate,
+          alt: "dif_general_paso_captura",
+          link: "https://www.lanacion.com.ar/politica/quien-gano-el-debate-presidencial-2023-los-aciertos-y-errores-de-los-candidatos-segun-los-columnitas-nid02102023/#/",
+          published: "La Nacion",
+          role: ["Web development"],
+        },
+        //Comparativo de discursos de asunción  
+          {
+        title: "From Néstor Kirchner to Javier Milei: Comparison of presidential inaugural speeches",
+        image: discursosGif,
+        alt: "gif_comparacion_discursos_asuncion",
+        link: "https://www.lanacion.com.ar/politica/focos-frases-y-aplausos-de-nestor-kirchner-a-javier-milei-comparativo-de-discursos-de-asuncion-nid10122023/",
+        published: "La Nacion",
+        role: ["Web development"],
         },
         //Calculadora Electoral
         {
@@ -328,33 +355,7 @@ export default {
           published: "La Nacion",
           role: ["Reporting"],
         },
-        //Diferencia General  
-        {
-          title: "Can Javier Milei win in the first round? The feat that he seeks and that challenges electoral statistics",
-          image: difGeneralPaso,
-          alt: "dif_general_paso_captura",
-          link: "https://www.lanacion.com.ar/politica/puede-ganar-en-primera-vuelta-la-hazana-que-busca-javier-milei-y-que-desafia-a-las-estadisticas-nid21102023/",
-          published: "La Nacion",
-          role: ["Data visualization"],
-        },
-        //Cards debate  
-        {
-          title: "Who won the presidential debate? The evaluation of LA NACION's journalists on the performance of the candidates",
-          image: cardsDebate,
-          alt: "dif_general_paso_captura",
-          link: "https://www.lanacion.com.ar/politica/quien-gano-el-debate-presidencial-2023-los-aciertos-y-errores-de-los-candidatos-segun-los-columnitas-nid02102023/#/",
-          published: "La Nacion",
-          role: ["Web development"],
-        },
-        //Comparativo de discursos de asunción  
-          {
-        title: "From Néstor Kirchner to Javier Milei: Comparison of presidential inaugural speeches",
-        image: discursosGif,
-        alt: "gif_comparacion_discursos_asuncion",
-        link: "https://www.lanacion.com.ar/politica/focos-frases-y-aplausos-de-nestor-kirchner-a-javier-milei-comparativo-de-discursos-de-asuncion-nid10122023/",
-        published: "La Nacion",
-        role: ["Web development"],
-        },
+  
         
       ],
     };
