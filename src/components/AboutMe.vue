@@ -41,6 +41,7 @@ p strong{
 
 #myBio {
   padding: 20px 0 40px;
+  font-size: 16px;
 }
 
 p {

@@ -191,12 +191,13 @@ button a:hover {
 import capturaViajes from "@/images/viajes_precandidatos.gif";
 import gifInflacion from "@/images/gif_inflacion.gif";
 import gifCromanion from "@/images/cromanion_2.gif";
-import mileiGraficos from "@/images/milei_graficos.gif"
-import gifCalculadora from "@/images/gif_calculadora.gif"
-import difGeneralPaso from "@/images/gral_paso_diferencia.png"
-import cardsDebate from "@/images/debate_presidencial_captura.png"
-import discursosGif from "@/images/discursos.gif"
-
+import mileiGraficos from "@/images/Scatter-captura.png";
+import gifCalculadora from "@/images/gif_calculadora.gif";
+import difGeneralPaso from "@/images/gral_paso_diferencia.png";
+import cardsDebate from "@/images/debate_presidencial_captura.png";
+import discursosGif from "@/images/discursos.gif";
+import gifTemperatura from "@/images/mapa_temperatura.gif";
+import mapaElectoral from "@/images/mapa-electoral-generales.gif";
 
 export default {
   name: "ProjectsLN",
@@ -211,27 +212,6 @@ export default {
             "https://resizer.glanacion.com/resizer/wsH9qhqEmYUDAbfMZo3pgMNQyM8=/1200x746/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/4VT6FVWGRJEMZNGRDOFAWME4GA.gif",
           alt: "simulacion_particulas_colectivo_gif",
           link: "https://www.lanacion.com.ar/sociedad/simulacion-asi-se-puede-propagar-el-virus-en-el-transporte-nid11042021/",
-          published: "La Nacion",
-          role: ["Reporting"],
-        },
-        //Plaza de Mayo
-        {
-          title:
-            "Plaza de Mayo in flames. 24 hours of anger, repression and death that changed history.",
-          image:
-            "https://resizer.glanacion.com/resizer/2wmHNtkS2PsATDxKmOi_Ox8s2Lk=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/4F3ACEW52VBSRMZDEME2YJVHHQ.gif",
-          alt: "plaza_de_mayo_gif",
-          link: "https://www.lanacion.com.ar/politica/plaza-de-mayo-en-llamas-asi-ocurrieron-las-cinco-muertes-que-cambiaron-la-historia-de-la-argentina-nid19122021/",
-          published: "La Nacion",
-          role: ["Reporting"],
-        },
-        //Plataformas de vacunas
-        {
-          title: "How the vaccines against coronavirus work",
-          image:
-            "https://resizer.glanacion.com/resizer/1efleqADafaG5DwG7uvgaRMDt6U=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WXIM3KE6QFDTNPNMTLEBTK2BTE.gif",
-          alt: "plataformas_vacunas_covid19_gif",
-          link: "https://www.lanacion.com.ar/sociedad/asi-actuan-vacunas-carrera-coronavirus-nid2406017/",
           published: "La Nacion",
           role: ["Reporting"],
         },
@@ -256,25 +236,55 @@ export default {
           published: "La Nacion",
           role: ["Reporting", "Web development"],
         },
+        //Graficos de Milei
+        {
+          title:
+            "Who elected Milei? The economic analysis of the libertarian vote ",
+          image: mileiGraficos,
+          alt: "graficos_dispersion_milei",
+          link: "https://www.lanacion.com.ar/sociedad/quien-eligio-a-milei-el-analisis-economico-del-voto-libertario-y-el-grafico-revelador-que-implosiono-nid07092023/#/",
+          published: "La Nacion",
+          role: ["Data Visualization"],
+        },
+        //Plataformas de vacunas
+        {
+          title: "How the vaccines against coronavirus work",
+          image:
+            "https://resizer.glanacion.com/resizer/1efleqADafaG5DwG7uvgaRMDt6U=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WXIM3KE6QFDTNPNMTLEBTK2BTE.gif",
+          alt: "plataformas_vacunas_covid19_gif",
+          link: "https://www.lanacion.com.ar/sociedad/asi-actuan-vacunas-carrera-coronavirus-nid2406017/",
+          published: "La Nacion",
+          role: ["Reporting"],
+        },
+        //Diferencia General
+        {
+          title:
+            "Can Javier Milei win in the first round? The feat that he seeks and that challenges electoral statistics",
+          image: difGeneralPaso,
+          alt: "dif_general_paso_captura",
+          link: "https://www.lanacion.com.ar/politica/puede-ganar-en-primera-vuelta-la-hazana-que-busca-javier-milei-y-que-desafia-a-las-estadisticas-nid21102023/",
+          published: "La Nacion",
+          role: ["Data visualization"],
+        },
+
         //Elecciones 2023: Mapa de resultados en todo el país
         {
           title:
             "The new political map: the results of the 2023 general elections",
-          image:
-            "https://resizer.glanacion.com/resizer/v2/-MKT5IWKLFZA4POPEVH3R3OGC6M.jpg?auth=b2ada88639b2f41ebad22235e91ae83d6872abd6096b68dba46ab6fdbd41c763&width=880&height=586&quality=70&smart=true",
+          image: mapaElectoral,
           alt: "mapa_resultados_en_el_pais_2023",
           link: "https://www.lanacion.com.ar/politica/elecciones-2023-los-resultados-de-los-comicios-presidenciales-en-todo-el-pais-nid22102023/#/presidente",
           published: "La Nacion",
           role: ["data reporting"],
         },
-         //Artemis
-         {
+        //Mapa de intendentes
+        {
           title:
-            "First the Moon, then Mars. Half a century after Apollo XI, United States wants to conquer space again.",
+            "Mayor map: Winners and losers in the districts of the Buenos Aires province",
           image:
-            "https://resizer.glanacion.com/resizer/N82f4Ap-wiyxWgJjUVbVfiVuBIg=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XOJ3AB4RPVBBTPUNWPMT7S622E.jpg",
-          alt: "artemis_captura_home",
-          link: "https://www.lanacion.com.ar/sociedad/primero-la-luna-luego-marte-medio-siglo-despues-del-apolo-11-estados-unidos-quiere-volver-a-nid28082022/#/",
+            "https://resizer.glanacion.com/resizer/v2/-G7FFCPNQCFBAFN6VMGJZ72O4EY.jpg?auth=f941ef7bd17d0fc74925b07468c7a0bf40ceb391d72339f20fa186a36f3b98d3&width=768&quality=70&smart=false",
+          alt: "mayor-map-image",
+          link: "https://www.lanacion.com.ar/politica/elecciones-2023-el-nuevo-mapa-de-intendentes-bonaerenses-nid22102023/#/intendentes",
           published: "La Nacion",
           role: ["Reporting"],
         },
@@ -288,53 +298,48 @@ export default {
           published: "La Nacion",
           role: ["Web development"],
         },
-          //Graficos de Milei
-          {
-          title:
-            "Who elected Milei? The economic analysis of the libertarian vote ",
-          image: mileiGraficos,
-          alt: "graficos_dispersion_milei",
-          link: "https://www.lanacion.com.ar/sociedad/quien-eligio-a-milei-el-analisis-economico-del-voto-libertario-y-el-grafico-revelador-que-implosiono-nid07092023/#/",
-          published: "La Nacion",
-          role: ["Data Visualization"],
-        },
-              //Diferencia General  
-              {
-          title: "Can Javier Milei win in the first round? The feat that he seeks and that challenges electoral statistics",
-          image: difGeneralPaso,
-          alt: "dif_general_paso_captura",
-          link: "https://www.lanacion.com.ar/politica/puede-ganar-en-primera-vuelta-la-hazana-que-busca-javier-milei-y-que-desafia-a-las-estadisticas-nid21102023/",
-          published: "La Nacion",
-          role: ["Data visualization"],
-        },
-        //Cards debate  
+        //Artemis
         {
-          title: "Who won the presidential debate? The evaluation of LA NACION's journalists on the performance of the candidates",
+          title:
+            "First the Moon, then Mars. Half a century after Apollo XI, United States wants to conquer space again.",
+          image:
+            "https://resizer.glanacion.com/resizer/N82f4Ap-wiyxWgJjUVbVfiVuBIg=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XOJ3AB4RPVBBTPUNWPMT7S622E.jpg",
+          alt: "artemis_captura_home",
+          link: "https://www.lanacion.com.ar/sociedad/primero-la-luna-luego-marte-medio-siglo-despues-del-apolo-11-estados-unidos-quiere-volver-a-nid28082022/#/",
+          published: "La Nacion",
+          role: ["Reporting"],
+        },
+        //Plaza de Mayo
+        {
+          title:
+            "Plaza de Mayo in flames. 24 hours of anger, repression and death that changed history.",
+          image:
+            "https://resizer.glanacion.com/resizer/2wmHNtkS2PsATDxKmOi_Ox8s2Lk=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/4F3ACEW52VBSRMZDEME2YJVHHQ.gif",
+          alt: "plaza_de_mayo_gif",
+          link: "https://www.lanacion.com.ar/politica/plaza-de-mayo-en-llamas-asi-ocurrieron-las-cinco-muertes-que-cambiaron-la-historia-de-la-argentina-nid19122021/",
+          published: "La Nacion",
+          role: ["Reporting"],
+        },
+
+        //Cards debate
+        {
+          title:
+            "Who won the presidential debate? The evaluation of LA NACION's journalists on the performance of the candidates",
           image: cardsDebate,
           alt: "dif_general_paso_captura",
           link: "https://www.lanacion.com.ar/politica/quien-gano-el-debate-presidencial-2023-los-aciertos-y-errores-de-los-candidatos-segun-los-columnitas-nid02102023/#/",
           published: "La Nacion",
           role: ["Web development"],
         },
-        //Comparativo de discursos de asunción  
-          {
-        title: "From Néstor Kirchner to Javier Milei: Comparison of presidential inaugural speeches",
-        image: discursosGif,
-        alt: "gif_comparacion_discursos_asuncion",
-        link: "https://www.lanacion.com.ar/politica/focos-frases-y-aplausos-de-nestor-kirchner-a-javier-milei-comparativo-de-discursos-de-asuncion-nid10122023/",
-        published: "La Nacion",
-        role: ["Web development"],
-        },
-        //Calculadora Electoral
+        //Comparativo de discursos de asunción
         {
           title:
-            "Will there be a ballottage or will it be defined in the first round? Predict how the votes will rearrange in October in the general election",
-          image:
-          gifCalculadora,
-          alt: "calculator_gif",
-          link: "https://www.lanacion.com.ar/politica/elecciones-2023-la-calculadora-para-proyectar-como-se-reacomodaran-los-votos-en-la-primera-vuelta-nid26082023/",
+            "From Néstor Kirchner to Javier Milei: Comparison of presidential inaugural speeches",
+          image: discursosGif,
+          alt: "gif_comparacion_discursos_asuncion",
+          link: "https://www.lanacion.com.ar/politica/focos-frases-y-aplausos-de-nestor-kirchner-a-javier-milei-comparativo-de-discursos-de-asuncion-nid10122023/",
           published: "La Nacion",
-          role: ["Reporting"],
+          role: ["Web development"],
         },
         //Cómo ataca el virus en el organismo
         {
@@ -343,6 +348,27 @@ export default {
             "https://buckets3.glanacion.com/lntools/anexos/fotos/66/18866.svg",
           alt: "covid19_virus_attack_body_img",
           link: "https://www.lanacion.com.ar/sociedad/dia-dia-como-actua-virus-organismo-nid2358830/",
+          published: "La Nacion",
+          role: ["Reporting"],
+        },
+        //Islas de calor
+        {
+          title:
+            "Heat islands: These are the corners in Buenos Aires where the temperature is hell",
+          image: gifTemperatura,
+          alt: "heat-islands-gif",
+          link: "https://www.lanacion.com.ar/sociedad/islas-de-calor-portenas-tenes-calor-entonces-ni-te-asomes-a-estas-esquinas-portenas-donde-la-nid06022024/#/",
+          published: "La Nacion",
+          role: ["Web development"],
+        },
+
+        //Calculadora Electoral
+        {
+          title:
+            "Will there be a ballottage or will it be defined in the first round? Predict how the votes will rearrange in October in the general election",
+          image: gifCalculadora,
+          alt: "calculator_gif",
+          link: "https://www.lanacion.com.ar/politica/elecciones-2023-la-calculadora-para-proyectar-como-se-reacomodaran-los-votos-en-la-primera-vuelta-nid26082023/",
           published: "La Nacion",
           role: ["Reporting"],
         },
@@ -355,8 +381,6 @@ export default {
           published: "La Nacion",
           role: ["Reporting"],
         },
-  
-        
       ],
     };
   },
