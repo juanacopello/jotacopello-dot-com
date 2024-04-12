@@ -2,7 +2,7 @@
   <div>
     <header class="bio">
       <h1>Juana Copello</h1>
-      <h2>Visual Journalist</h2>
+      <h2>visual journalist & dataviz developer</h2>
     </header>
 
     <main>
@@ -44,7 +44,7 @@ footer {
 }
 
 .bio h2 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 200;
   color: #000000bd;
 }

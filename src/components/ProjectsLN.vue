@@ -148,7 +148,7 @@ button a:hover {
   padding: 2px 10px;
   color: #000;
   margin-left: 7px;
-  font-size: 11px !important;
+  font-size: 12px !important;
   pointer-events: none;
   font-weight: 200 !important;
   text-transform: lowercase;
@@ -248,7 +248,7 @@ export default {
         },
         //Plataformas de vacunas
         {
-          title: "How the vaccines against coronavirus work",
+          title: "How the Covid-19 vaccines work",
           image:
             "https://resizer.glanacion.com/resizer/1efleqADafaG5DwG7uvgaRMDt6U=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WXIM3KE6QFDTNPNMTLEBTK2BTE.gif",
           alt: "plataformas_vacunas_covid19_gif",
@@ -341,16 +341,17 @@ export default {
           published: "La Nacion",
           role: ["Web development"],
         },
-        //Cómo ataca el virus en el organismo
-        {
-          title: "SARS-CoV-2: day by day, how the virus affect the body",
-          image:
-            "https://buckets3.glanacion.com/lntools/anexos/fotos/66/18866.svg",
-          alt: "covid19_virus_attack_body_img",
-          link: "https://www.lanacion.com.ar/sociedad/dia-dia-como-actua-virus-organismo-nid2358830/",
+       //Dengue
+       {
+          title:
+            "Dengue. This is how the virus acts inside your body and how it spreads",
+          image: "https://resizer.glanacion.com/resizer/ZBq-a_kAPECZPeFZmXtKvRg02vA=/375x250/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/IWZGCFVLKNFNJLJDFF7RZA3WDE.jpg",
+          alt: "mosquito",
+          link: "https://www.lanacion.com.ar/sociedad/dengue-viaje-al-interior-de-la-epidemia-asi-actua-el-virus-dentro-de-tu-cuerpo-y-asi-se-propaga-nid11042024/#/",
           published: "La Nacion",
           role: ["Reporting"],
         },
+
         //Islas de calor
         {
           title:
@@ -369,6 +370,16 @@ export default {
           image: gifCalculadora,
           alt: "calculator_gif",
           link: "https://www.lanacion.com.ar/politica/elecciones-2023-la-calculadora-para-proyectar-como-se-reacomodaran-los-votos-en-la-primera-vuelta-nid26082023/",
+          published: "La Nacion",
+          role: ["Reporting"],
+        },
+         //Cómo ataca el virus en el organismo
+         {
+          title: "SARS-CoV-2: day by day, how the virus affect the body",
+          image:
+            "https://buckets3.glanacion.com/lntools/anexos/fotos/66/18866.svg",
+          alt: "covid19_virus_attack_body_img",
+          link: "https://www.lanacion.com.ar/sociedad/dia-dia-como-actua-virus-organismo-nid2358830/",
           published: "La Nacion",
           role: ["Reporting"],
         },
