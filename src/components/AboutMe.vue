@@ -3,12 +3,12 @@
     <section id="myBio">
       <p>&#128075; ¡Hola!</p>
       <p>
-        &#128200; I'm a journalist specialized in Data Visualization and Visual
+        &#128200; I am a journalist specialized in Data Visualization and Visual
         Storytelling based in Buenos Aires, Argentina.
       </p>
       <p>
-        &#128373; I work at the Visual Storytelling and Graphics team in LA NACION, a national news
-        media outlet, where I produce and develop interactive projects.
+        &#128373; I work at the Visual Storytelling and Graphics team in LA NACION, one of the largest national news
+        media outlet in Argentina, where I produce and develop interactive projects.
       </p>
       <p>
         &#128105;&#8205;&#128187; I am also an Assistant Professor at the Universidad Torcuato
@@ -54,7 +54,7 @@ p a {
 }
 
 p {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 780px) {
@@ -66,7 +66,7 @@ p {
 @media screen and (min-width: 1000px) {
   div {
     /* height: 60vh; */
-    max-width: calc(1100px * 0.9);
+    max-width: 1100px;
     margin-bottom: 20px;
     margin: auto;
   }

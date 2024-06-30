@@ -5,9 +5,10 @@
       <h2>visual journalist & dataviz developer</h2>
     </header>
 
-    <main>
+    <main class="main-container">
       <AboutMe />
       <ProjectsLN />
+      <Awards />
     </main>
     <footer>
       <Icons />
@@ -26,7 +27,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   box-sizing: unset;
-  padding: 1.5rem 0 1rem;
+  padding: 4rem 0 1rem;
   /*background-color: #000000; #f4f0f0 #0c2332*/
   color: #000000;
   text-align: center;
@@ -77,6 +78,10 @@ footer {
   color: white;
 }
 
+.main-container{
+  padding-bottom: 40px;
+}
+
 @media screen and (max-width: 350px) {
   .bio h1 {
     font-size: 2rem;
@@ -92,15 +97,15 @@ footer {
 
 @media screen and (min-width: 1000px) {
   .bio {
-    max-width: calc(1100px * 0.9);
+    max-width: 1100px;
     padding: 2rem 0 1rem;
     margin: auto;
     width: 100%;
   }
 
   footer {
-    max-width: 1000px;
     width: 100%;
+    background-color: #000000;
   }
 }
 </style>
@@ -109,6 +114,7 @@ footer {
 import ProjectsLN from "./components/ProjectsLN.vue";
 import AboutMe from "./components/AboutMe.vue";
 import Icons from "./components/Icons.vue";
+import Awards from "./components/Awards.vue"
 
 export default {
   name: "app",
@@ -116,6 +122,7 @@ export default {
     ProjectsLN,
     AboutMe,
     Icons,
+    Awards
   },
 };
 </script>

@@ -23,9 +23,10 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 article a {
   text-decoration: none;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -46,11 +47,13 @@ article a {
 }
 
 .projects h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #2b2424;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
 }
 
 .container {
@@ -102,7 +105,7 @@ article:hover:after {
   padding: 0.5rem;
   font-weight: 200;
   font-size: 0.9rem;
-  margin: 3px 0;
+  margin: 10px 0;
   line-height: 1.5;
   color: #000000;
 }
@@ -139,7 +142,7 @@ button a:hover {
 .rolesContainer {
   display: flex;
   flex-direction: row;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .roles {
@@ -162,26 +165,26 @@ button a:hover {
 
 @media screen and (max-width: 780px) {
   article figure {
-    height: 200px;
+    width: auto;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .container article .texto_project {
     padding: 0 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
   }
   .container {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .container article img,
+  .container article figure,
   .container article video {
-    height: 220px;
+    height: 250px;
   }
 
   .projects {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 2rem auto;
   }
 }
@@ -198,6 +201,8 @@ import cardsDebate from "@/images/debate_presidencial_captura.png";
 import discursosGif from "@/images/discursos.gif";
 import gifTemperatura from "@/images/mapa_temperatura.gif";
 import mapaElectoral from "@/images/mapa-electoral-generales.gif";
+import proyectoCalle from "@/images/proyecto-calle-1.png";
+
 
 export default {
   name: "ProjectsLN",
@@ -207,7 +212,7 @@ export default {
         //Simulación en el colectivo
         {
           title:
-            "Simulation. This is how the Covid-19 can spread in public transport.",
+            "Simulation. This Is How The Covid-19 Can Spread In Public Transport.",
           image:
             "https://resizer.glanacion.com/resizer/wsH9qhqEmYUDAbfMZo3pgMNQyM8=/1200x746/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/4VT6FVWGRJEMZNGRDOFAWME4GA.gif",
           alt: "simulacion_particulas_colectivo_gif",
@@ -218,7 +223,7 @@ export default {
         //Aplausómetro
         {
           title:
-            "Justice, Mauricio Macri, debt and abortion: year by year, which theme was the most clapped in each of the President's speech in Congress.",
+            "Justice, Mauricio Macri, Debt and Abortion: Year by Year, which theme was the most clapped in each of the President's speech in Congress.",
           image:
             "https://resizer.glanacion.com/resizer/bgzZwVQheMcpBo7UsqTz3HjbJMU=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/PYNUBRJEH5HBTCJEBF3RWG4HXA.jpg",
           alt: "alberto_fernandez_speech",
@@ -266,6 +271,7 @@ export default {
           published: "La Nacion",
           role: ["Data visualization"],
         },
+  
 
         //Elecciones 2023: Mapa de resultados en todo el país
         {
@@ -298,6 +304,7 @@ export default {
           published: "La Nacion",
           role: ["Web development"],
         },
+        
         //Artemis
         {
           title:
@@ -321,6 +328,16 @@ export default {
           role: ["Reporting"],
         },
 
+              //Proyecto Calle
+              {
+          title:
+            "Living in the streets: What do people who don't even have a bed to spend the night dream about?",
+          image: proyectoCalle,
+          alt: "proyecto_calle",
+          link: "https://www.lanacion.com.ar/comunidad/con-que-suenan-las-personas-que-no-tienen-ni-una-cama-donde-pasar-la-noche-nid29062024/#/",
+          published: "La Nacion",
+          role: ["web development"],
+        },
         //Cards debate
         {
           title:
@@ -341,11 +358,12 @@ export default {
           published: "La Nacion",
           role: ["Web development"],
         },
-       //Dengue
-       {
+        //Dengue
+        {
           title:
             "Dengue. This is how the virus acts inside your body and how it spreads",
-          image: "https://resizer.glanacion.com/resizer/ZBq-a_kAPECZPeFZmXtKvRg02vA=/375x250/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/IWZGCFVLKNFNJLJDFF7RZA3WDE.jpg",
+          image:
+            "https://resizer.glanacion.com/resizer/ZBq-a_kAPECZPeFZmXtKvRg02vA=/375x250/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/IWZGCFVLKNFNJLJDFF7RZA3WDE.jpg",
           alt: "mosquito",
           link: "https://www.lanacion.com.ar/sociedad/dengue-viaje-al-interior-de-la-epidemia-asi-actua-el-virus-dentro-de-tu-cuerpo-y-asi-se-propaga-nid11042024/#/",
           published: "La Nacion",
@@ -373,8 +391,8 @@ export default {
           published: "La Nacion",
           role: ["Reporting"],
         },
-         //Cómo ataca el virus en el organismo
-         {
+        //Cómo ataca el virus en el organismo
+        {
           title: "SARS-CoV-2: day by day, how the virus affect the body",
           image:
             "https://buckets3.glanacion.com/lntools/anexos/fotos/66/18866.svg",
@@ -385,7 +403,7 @@ export default {
         },
         //Cromañón
         {
-          title: "15th anniversary of Cromañón: tour through a sinister maze",
+          title: "15th anniversary of Cromañón tragedy",
           image: gifCromanion,
           alt: "cromanion_sinister_maze_gif",
           link: "https://especialess3.lanacion.com.ar/19/12/3d-cromanon/",

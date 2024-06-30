@@ -16,7 +16,7 @@
 
 <style scoped>
 .socialMedia svg {
-  color: #000000d1;
+  color: #ffffff;
   height: 1.3em;
   margin: 0 15px;
 }
@@ -25,7 +25,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  max-width: calc(1100px * 0.9);
+  max-width: 1100px;
   margin: auto;
   padding: 20px 0;
 }
