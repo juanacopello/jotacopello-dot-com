@@ -202,6 +202,7 @@ import discursosGif from "@/images/discursos.gif";
 import gifTemperatura from "@/images/mapa_temperatura.gif";
 import mapaElectoral from "@/images/mapa-electoral-generales.gif";
 import proyectoCalle from "@/images/proyecto-calle-1.png";
+import argendata from "@/images/argendata.png"
 
 
 export default {
@@ -209,6 +210,16 @@ export default {
   data() {
     return {
       articles: [
+         //Simulación en el colectivo
+         {
+          title:
+            "Argendata",
+          image: argendata,
+          alt: "argendata_captura",
+          link: "https://argendata.fund.ar/",
+          published: "Fundar",
+          role: ["Data visualization"],
+        },
         //Simulación en el colectivo
         {
           title:
@@ -223,7 +234,7 @@ export default {
         //Aplausómetro
         {
           title:
-            "Justice, Mauricio Macri, Debt and Abortion: Year by Year, which theme was the most clapped in each of the President's speech in Congress.",
+            "Justice, Mauricio Macri, Debt and Abortion: Year by Year, Which Theme was the Most Clapped in Each of the President's Speech in Congress.",
           image:
             "https://resizer.glanacion.com/resizer/bgzZwVQheMcpBo7UsqTz3HjbJMU=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/PYNUBRJEH5HBTCJEBF3RWG4HXA.jpg",
           alt: "alberto_fernandez_speech",
@@ -234,7 +245,7 @@ export default {
         //Distorsión de precios
         {
           title:
-            "Do you know how much milk and gasoline cost? Test your notion of prices in times of uncontrolled inflation.",
+            "Do you Know How Much Milk and Gasoline Cost? Test your Notion of Prices in Times of Uncontrolled Inflation.",
           image: gifInflacion,
           alt: "test_inflacion_captura_home",
           link: "https://www.lanacion.com.ar/economia/sabes-cuanto-vale-la-leche-y-la-nafta-testea-tu-nocion-de-los-precios-en-tiempos-de-inflacion-nid07092022/",
@@ -244,7 +255,7 @@ export default {
         //Graficos de Milei
         {
           title:
-            "Who elected Milei? The economic analysis of the libertarian vote ",
+            "Who Elected Milei? The Economic Analysis of the Libertarian Vote ",
           image: mileiGraficos,
           alt: "graficos_dispersion_milei",
           link: "https://www.lanacion.com.ar/sociedad/quien-eligio-a-milei-el-analisis-economico-del-voto-libertario-y-el-grafico-revelador-que-implosiono-nid07092023/#/",
@@ -253,7 +264,7 @@ export default {
         },
         //Plataformas de vacunas
         {
-          title: "How the Covid-19 vaccines work",
+          title: "How the Covid-19 Vaccines Work",
           image:
             "https://resizer.glanacion.com/resizer/1efleqADafaG5DwG7uvgaRMDt6U=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/WXIM3KE6QFDTNPNMTLEBTK2BTE.gif",
           alt: "plataformas_vacunas_covid19_gif",
@@ -264,7 +275,7 @@ export default {
         //Diferencia General
         {
           title:
-            "Can Javier Milei win in the first round? The feat that he seeks and that challenges electoral statistics",
+            "Can Javier Milei Win in the First Round? The Feat that he Seeks and that Challenges Electoral Statistics",
           image: difGeneralPaso,
           alt: "dif_general_paso_captura",
           link: "https://www.lanacion.com.ar/politica/puede-ganar-en-primera-vuelta-la-hazana-que-busca-javier-milei-y-que-desafia-a-las-estadisticas-nid21102023/",
@@ -276,7 +287,7 @@ export default {
         //Elecciones 2023: Mapa de resultados en todo el país
         {
           title:
-            "The new political map: the results of the 2023 general elections",
+            "The New Political Map: the Results of the 2023 General Elections",
           image: mapaElectoral,
           alt: "mapa_resultados_en_el_pais_2023",
           link: "https://www.lanacion.com.ar/politica/elecciones-2023-los-resultados-de-los-comicios-presidenciales-en-todo-el-pais-nid22102023/#/presidente",
@@ -286,7 +297,7 @@ export default {
         //Mapa de intendentes
         {
           title:
-            "Mayor map: Winners and losers in the districts of the Buenos Aires province",
+            "Mayor Map: Winners and Losers in the Districts of the Buenos Aires Province",
           image:
             "https://resizer.glanacion.com/resizer/v2/-G7FFCPNQCFBAFN6VMGJZ72O4EY.jpg?auth=f941ef7bd17d0fc74925b07468c7a0bf40ceb391d72339f20fa186a36f3b98d3&width=768&quality=70&smart=false",
           alt: "mayor-map-image",
@@ -297,7 +308,7 @@ export default {
         //Viajes de precandidatos en todo el país
         {
           title:
-            "Campaign log. Thousands of kilometers, crossed strategies and an abrupt ending",
+            "Campaign Log. Thousands of Kilometers, Crossed Strategies and an Abrupt Ending",
           image: capturaViajes,
           alt: "viajes_de_precandidatos_en_todo_el_pais",
           link: "https://www.lanacion.com.ar/politica/elecciones-2023-como-fue-la-campana-de-los-principales-candidatos-para-las-paso-nid12082023/",
@@ -308,7 +319,7 @@ export default {
         //Artemis
         {
           title:
-            "First the Moon, then Mars. Half a century after Apollo XI, United States wants to conquer space again.",
+            "First the Moon, then Mars. Half a Century after Apollo XI, United States wants to conquer space again.",
           image:
             "https://resizer.glanacion.com/resizer/N82f4Ap-wiyxWgJjUVbVfiVuBIg=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XOJ3AB4RPVBBTPUNWPMT7S622E.jpg",
           alt: "artemis_captura_home",
@@ -319,7 +330,7 @@ export default {
         //Plaza de Mayo
         {
           title:
-            "Plaza de Mayo in flames. 24 hours of anger, repression and death that changed history.",
+            "Plaza de Mayo in Flames. 24 hours of Anger, Repression and Death that Changed History.",
           image:
             "https://resizer.glanacion.com/resizer/2wmHNtkS2PsATDxKmOi_Ox8s2Lk=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/4F3ACEW52VBSRMZDEME2YJVHHQ.gif",
           alt: "plaza_de_mayo_gif",
@@ -331,7 +342,7 @@ export default {
               //Proyecto Calle
               {
           title:
-            "Living in the streets: What do people who don't even have a bed to spend the night dream about?",
+            "Living in the Streets: What Do people who Don't Have a Bed to Spend the Night Dream About?",
           image: proyectoCalle,
           alt: "proyecto_calle",
           link: "https://www.lanacion.com.ar/comunidad/con-que-suenan-las-personas-que-no-tienen-ni-una-cama-donde-pasar-la-noche-nid29062024/#/",
@@ -341,7 +352,7 @@ export default {
         //Cards debate
         {
           title:
-            "Who won the presidential debate? The evaluation of LA NACION's journalists on the performance of the candidates",
+            "Who Won the Presidential Debate? The Evaluation of LA NACION's Reporters on the Candidates' Performance",
           image: cardsDebate,
           alt: "dif_general_paso_captura",
           link: "https://www.lanacion.com.ar/politica/quien-gano-el-debate-presidencial-2023-los-aciertos-y-errores-de-los-candidatos-segun-los-columnitas-nid02102023/#/",
@@ -351,7 +362,7 @@ export default {
         //Comparativo de discursos de asunción
         {
           title:
-            "From Néstor Kirchner to Javier Milei: Comparison of presidential inaugural speeches",
+            "From Néstor Kirchner to Javier Milei: Comparison of Presidential Inaugural Speeches",
           image: discursosGif,
           alt: "gif_comparacion_discursos_asuncion",
           link: "https://www.lanacion.com.ar/politica/focos-frases-y-aplausos-de-nestor-kirchner-a-javier-milei-comparativo-de-discursos-de-asuncion-nid10122023/",
@@ -361,7 +372,7 @@ export default {
         //Dengue
         {
           title:
-            "Dengue. This is how the virus acts inside your body and how it spreads",
+            "Dengue. This is How the Virus Acts Inside your Body and How it Spreads",
           image:
             "https://resizer.glanacion.com/resizer/ZBq-a_kAPECZPeFZmXtKvRg02vA=/375x250/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/IWZGCFVLKNFNJLJDFF7RZA3WDE.jpg",
           alt: "mosquito",
@@ -373,7 +384,7 @@ export default {
         //Islas de calor
         {
           title:
-            "Heat islands: These are the corners in Buenos Aires where the temperature is hell",
+            "Heat Islands: These Are the Corners in Buenos Aires Where the Temperature is Hell",
           image: gifTemperatura,
           alt: "heat-islands-gif",
           link: "https://www.lanacion.com.ar/sociedad/islas-de-calor-portenas-tenes-calor-entonces-ni-te-asomes-a-estas-esquinas-portenas-donde-la-nid06022024/#/",
@@ -384,7 +395,7 @@ export default {
         //Calculadora Electoral
         {
           title:
-            "Will there be a ballottage or will it be defined in the first round? Predict how the votes will rearrange in October in the general election",
+            "Will There be a Ballottage or Will it be Defined in the First Round? Predict How the Votes will Rearrange in October in the General Election",
           image: gifCalculadora,
           alt: "calculator_gif",
           link: "https://www.lanacion.com.ar/politica/elecciones-2023-la-calculadora-para-proyectar-como-se-reacomodaran-los-votos-en-la-primera-vuelta-nid26082023/",
@@ -393,7 +404,7 @@ export default {
         },
         //Cómo ataca el virus en el organismo
         {
-          title: "SARS-CoV-2: day by day, how the virus affect the body",
+          title: "SARS-CoV-2: Day by Day, How the Virus Affect the Body",
           image:
             "https://buckets3.glanacion.com/lntools/anexos/fotos/66/18866.svg",
           alt: "covid19_virus_attack_body_img",
@@ -403,7 +414,7 @@ export default {
         },
         //Cromañón
         {
-          title: "15th anniversary of Cromañón tragedy",
+          title: "15th Anniversary of Cromañón Tragedy",
           image: gifCromanion,
           alt: "cromanion_sinister_maze_gif",
           link: "https://especialess3.lanacion.com.ar/19/12/3d-cromanon/",

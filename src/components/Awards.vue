@@ -6,7 +6,7 @@
         <ul>
           <li v-for="(award, i) in listAwards" :key="i">
             {{ award.year }} | <span>{{ award.type }}</span> | {{ award.organization }} |
-            <a :href="award.publicationUrl" target="_blank"> {{ award.publicationText }} </a>
+            <a class="awarded-project-url" :href="award.publicationUrl" target="_blank"> {{ award.publicationText }} </a>
           </li>
         </ul>
       </div>
@@ -26,9 +26,22 @@
 
 
 .list-container ul li a{
-  color: black;
-  font-weight: 500;
-  text-decoration: none;
+  color: var(--color-text);
+  /* text-decoration: none; */
+}
+
+.awarded-project-url{
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.awarded-project-url:hover {
+  box-shadow: inset 100% 0 0 0 #54b3d6;
+  color: red;
+  color: rgba(0, 0, 0, 0.671);
 }
 </style>
 
@@ -47,58 +60,51 @@ export default {
         },
         {
           year: 2023,
-          type: "Silver",
-          organization: "Society for News Design",
-          publicationText: "Hello",
-          publicationUrl: "https://www.lanacion.com.ar/",
-        },
-        {
-          year: 2023,
           type: "First place",
           organization: "Grupo de Diarios América",
-          publicationText: "Rosario, a drug feud",
+          publicationText: "Rosario, a Drug Feud",
           publicationUrl: "https://www.lanacion.com.ar/politica/rosario-feudo-narco-el-imperio-criminal-que-se-administra-detras-de-las-rejas-con-complicidad-nid30102022/#/",
         },
         {
           year: 2022,
           type: "Award of Excellence",
           organization: "Society for News Design",
-          publicationText: "Incriminating messages. This is how the attack against Cristina Kirchner was planned and carried out",
+          publicationText: "Incriminating Messages. This is How the Attack against Cristina Kirchner was Planned and Carried Out",
           publicationUrl: "https://www.lanacion.com.ar/politica/mensajes-delatores-asi-se-planifico-y-ejecuto-el-atentado-contra-cristina-kirchner-nid17092022/#/",
         },
         {
           year: 2021,
           type: "First Place",
           organization: "Sociedad Interamericana de Prensa",
-          publicationText: "Step by step, how is the Artemis mission plan to return the Man to the Moon",
+          publicationText: "Step by Step, The Artemis Mission Plan to Return the Man to the Moon",
           publicationUrl: "https://www.lanacion.com.ar/sociedad/primero-la-luna-luego-marte-medio-siglo-despues-del-apolo-11-estados-unidos-quiere-volver-a-nid28082022/#/",
         },
         {
           year: 2021,
           type: "Award of Excellence",
           organization: "Society for News Design",
-          publicationText: "Plaza de Mayo on fire. How the five deaths that changed Argentina's history took place",
+          publicationText: "Plaza de Mayo on Fire. How the Five Deaths that Changed Argentina's History Took Place",
           publicationUrl: "https://www.lanacion.com.ar/politica/plaza-de-mayo-en-llamas-asi-ocurrieron-las-cinco-muertes-que-cambiaron-la-historia-de-la-argentina-nid19122021/",
         },
         {
           year: 2021,
           type: "Award of Excellence",
           organization: "Society for News Design",
-          publicationText: "Simulation. This is how the virus can spread in public transport",
+          publicationText: "Simulation. This is How the Virus can Spread in Public Transport",
           publicationUrl: "https://www.lanacion.com.ar/sociedad/simulacion-asi-se-puede-propagar-el-virus-en-el-transporte-nid11042021/",
         },
         {
           year: 2021,
           type: "Award of Excellence",
           organization: "Society for News Design",
-          publicationText: "How the Covid-19 vaccines work",
+          publicationText: "How the Covid-19 Vaccines Work",
           publicationUrl: "https://www.lanacion.com.ar/sociedad/asi-actuan-vacunas-carrera-coronavirus-nid2406017/",
         },
         {
           year: 2020,
           type: "Award of Excellence",
           organization: "Society for News Design",
-          publicationText: "15th anniversary of Cromañon's tragedy",
+          publicationText: "15th Anniversary of Cromañon's Tragedy",
           publicationUrl: "https://especialess3.lanacion.com.ar/19/12/3d-cromanon/",
         },
       ],
