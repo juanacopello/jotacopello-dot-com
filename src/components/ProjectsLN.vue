@@ -213,7 +213,7 @@ export default {
          //Simulación en el colectivo
          {
           title:
-            "Argendata",
+            "Argendata: Data to Understand Argentina",
           image: argendata,
           alt: "argendata_captura",
           link: "https://argendata.fund.ar/",
