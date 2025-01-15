@@ -201,7 +201,7 @@ import cardsDebate from "@/images/debate_presidencial_captura.png";
 import discursosGif from "@/images/discursos.gif";
 import gifTemperatura from "@/images/mapa_temperatura.gif";
 import mapaElectoral from "@/images/mapa-electoral-generales.gif";
-import proyectoCalle from "@/images/proyecto-calle-1.png";
+import proyectoCalle from "@/images/proyecto-calle.png";
 import argendata from "@/images/argendata.png";
 import gifCompass from "@/images/compass.gif";
 import gifCharts from "@/images/charts.gif";
