@@ -8,7 +8,7 @@
       </p>
       <p>
         &#128373; I work at the Visual Storytelling and Graphics team in LA NACION, one of the largest national news
-        media outlet in Argentina, where I produce and develop interactive projects.
+        media organization in Argentina, where I produce and develop interactive projects.
       </p>
       <p>
         &#128105;&#8205;&#128187; I am also an Assistant Professor at the Universidad Torcuato
