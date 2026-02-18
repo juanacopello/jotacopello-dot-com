@@ -3,17 +3,17 @@
     <section id="myBio">
       <p>&#128075; ¡Hola!</p>
       <p>
-        &#128200; I am a journalist specialized in Data Visualization and Visual
-        Storytelling based in Buenos Aires, Argentina.
+        &#128200; I am an Msc. Student visual journalist specialized in Data Visualization and Visual
+        Storytelling based in Milano, Italy,.
       </p>
       <p>
-        &#128373; I work at the Visual Storytelling and Graphics team in LA NACION, one of the largest national news
-        media organization in Argentina, where I produce and develop interactive projects.
-      </p>
-      <p>
-        &#128105;&#8205;&#128187; I am also an Adjunct Professor at the Universidad Torcuato
-        Di Tella's Design School, where I teach introductory coding and data
+        &#128373; I worked for more than five years at the Visual Storytelling and Graphics team in LA NACION, one of the largest national news
+        media organization in Argentina, where I produced and developed interactive projects. I was also an Adjunct Professor at the Universidad Torcuato
+        Di Tella's Design School, where I taught introductory coding and data
         visualization classes.
+      </p>
+      <p>
+        &#128105;&#8205;&#128187; I also have experience as a freelance dataviz consultant and developer, working with clients such as the United Nations Population Fund, the European Council on Foreign Relations, and Fundar.
       </p>
       <!-- <p>
         &#127942;My work has been recognised with various accolades, including awards from organisations such as Society for News Design, Malofiej and Sociedad Interamericana de Prensa 

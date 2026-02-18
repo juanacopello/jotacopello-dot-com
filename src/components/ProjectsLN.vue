@@ -141,6 +141,7 @@ button a:hover {
 
 .rolesContainer {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   padding-bottom: 20px;
 }
@@ -205,12 +206,30 @@ import proyectoCalle from "@/images/proyecto-calle.png";
 import argendata from "@/images/argendata.png";
 import gifCompass from "@/images/compass.gif";
 import gifCharts from "@/images/charts.gif";
+import gifEcfr from "@/images/ecfr.gif";
+
 
 export default {
   name: "ProjectsLN",
   data() {
     return {
       articles: [
+           {
+          title: "The Data Collection Project",
+          image: gifEcfr,
+          alt: "ecfr_data_collection_project",
+          link: "https://datacollection.ecfr.eu/",
+          published: "European Council on Foreign Relations",
+          role: ["Data visualization", "Web development"],
+        },
+            {
+          title: "Argendata: Data to Understand Argentina",
+          image: argendata,
+          alt: "argendata_captura",
+          link: "https://argendata.fund.ar/",
+          published: "Fundar",
+          role: ["Data visualization"],
+        },
         //Simulación en el colectivo
         {
           title:
@@ -433,14 +452,7 @@ export default {
           role: ["web development"],
         },
         //Argendata
-        {
-          title: "Argendata: Data to Understand Argentina",
-          image: argendata,
-          alt: "argendata_captura",
-          link: "https://argendata.fund.ar/",
-          published: "Fundar",
-          role: ["Data visualization"],
-        },
+    
       ],
     };
   },
