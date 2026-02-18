@@ -19,7 +19,7 @@
       <p>&#128105; My pronouns are she/her.</p>
       <p>
         &#128241; You can
-        <a href="mailto:copellojuana@gmail.com" target="_blank">email</a> me or
+        <a href="mailto:juanacopello.info@gmail.com" target="_blank">email</a> me or
         find me on
         <a href="https://twitter.com/copellojuana" target="_blank">twitter</a>
         and
