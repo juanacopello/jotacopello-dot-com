@@ -3,11 +3,9 @@
     <section id="myBio">
       <p>&#128075; ¡Hola!</p>
       <p>
-        &#128200; I am an Msc. Student visual journalist specialized in Data Visualization and Visual
-        Storytelling based in Milano, Italy,.
-      </p>
+        &#128200; I am an argentine visual journalist and data visualization web developer currently based in Italy, studying a Master in Science in Communication Design at Politecnico di Milano.</p>
       <p>
-        &#128373; I worked for more than five years at the Visual Storytelling and Graphics team in LA NACION, one of the largest national news
+        &#128373; Before, I worked for more than five years at the Visual Storytelling and Graphics team in LA NACION, one of the largest national news
         media organization in Argentina, where I produced and developed interactive projects. I was also an Adjunct Professor at the Universidad Torcuato
         Di Tella's Design School, where I taught introductory coding and data
         visualization classes.
